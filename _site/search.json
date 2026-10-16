@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jamovi website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021."
+  },
+  {
+    "objectID": "descriptives.html",
+    "href": "descriptives.html",
+    "title": "Descriptive Statistics in jamovi",
+    "section": "",
+    "text": "In this exercise, you will learn to calculate descriptive statistics in jamovi. This assignment will explore trust in politicians and scientists.\nIf you want to learn about this topic, see The Politics of Climate Change\n(License available here)"
+  },
+  {
+    "objectID": "descriptives.html#purpose",
+    "href": "descriptives.html#purpose",
+    "title": "Descriptive Statistics in jamovi",
+    "section": "",
+    "text": "In this exercise, you will learn to calculate descriptive statistics in jamovi. This assignment will explore trust in politicians and scientists.\nIf you want to learn about this topic, see The Politics of Climate Change\n(License available here)"
+  },
+  {
+    "objectID": "descriptives.html#background-videos",
+    "href": "descriptives.html#background-videos",
+    "title": "Descriptive Statistics in jamovi",
+    "section": "Background Videos",
+    "text": "Background Videos\nBefore starting this tutorial, watch the following videos to learn about calculating descriptive statistics.\n\nDescriptive Statistics (5 minutes 26 seconds)\n\n\n\n\n\n\n\n\n\n\n\nComputing means (3 minutes 54 seconds)\n\n\n\n\n\n\n\n\n\n\n\nWritten explanations\nIf you prefer written explanations of the steps involved, see Section 4 in Learning Statistics with Jamovi."
+  },
+  {
+    "objectID": "descriptives.html#set-up-jamovi",
+    "href": "descriptives.html#set-up-jamovi",
+    "title": "Descriptive Statistics in jamovi",
+    "section": "Set up jamovi",
+    "text": "Set up jamovi\nIf you have not yet set up jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\nIn this course, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this,\n\nClick the three dots on the top right of the Jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp.\n\n\n\n\n\n\n\nThe three dots for settings\n\n\n\n\n\n\nChange to two decimal places"
+  },
+  {
+    "objectID": "descriptives.html#data-set",
+    "href": "descriptives.html#data-set",
+    "title": "Descriptive Statistics in jamovi",
+    "section": "Data Set",
+    "text": "Data Set\n\nIf you do not have the dataset Climate Change Data.omv download it from the Open Science Framework website\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the tutorial name. This will help you find it later when you want to do a similar analysis.\n\nExample: “Betty White PSY 422 Descriptive Statistics in Jamovi.omv”"
+  },
+  {
+    "objectID": "descriptives.html#descriptive-statistics-for-the-entire-sample",
+    "href": "descriptives.html#descriptive-statistics-for-the-entire-sample",
+    "title": "Descriptive Statistics in jamovi",
+    "section": "Descriptive Statistics for the Entire Sample",
+    "text": "Descriptive Statistics for the Entire Sample\nUsing the Climate Change Trust Scale (Barchard, Hoffman, Okagawa, & Odents, 2021), we asked participants to tell us how much they trusted politicians and scientists, with response options 1 = None at all, 2 = A little, 3 = Moderate, 4 = A lot, 5 = A great deal. You will determine who participants trust more.\n\nUnder the Exploration menu, click Descriptives.\n\n\n\nCalculate descriptive statistics for the variable CCTS_Politicians_Say (“How much do you trust what politicians say about climate change?”) and variable CCTS_Scientists_Say (“How much do you trust what scientists say about climate change?”).\nAsk it to calculate three statistics that measure Central Tendency: Mean, Median, and Mode.\nAsk it to calculate three statistics that measure Dispersion: Standard Deviation, Variance, and Range.\n\n\nCheck your answers\nThe mean for how much all participants trust what politicians say about climate change is \nThe mean for how much all participants trust what scientists say about climate change is \nFor which variable is there more variability – trust in what politicians say or trust in what scientists say? CCTS_Politicians_SayCCTS_Scientists_Say"
+  },
+  {
+    "objectID": "descriptives.html#descriptive-statistics-for-subsamples",
+    "href": "descriptives.html#descriptive-statistics-for-subsamples",
+    "title": "Descriptive Statistics in jamovi",
+    "section": "Descriptive Statistics for Subsamples",
+    "text": "Descriptive Statistics for Subsamples\nOften researchers are interested in particular groups of participants. Here, we will calculate trust separately for people who identify as female, male, and non-binary.\n\nTo create another analysis without erasing the old one, click Exploration, then Descriptives.\nCalculate descriptive statistics for the same two variables: CCTS_Politicians_Say (“How much do you trust what politicians say about climate change?”) and variable CCTS_Scientists_Say (“How much do you trust what scientists say about climate change?”). However, this time, split the results by Gender.\nCalculate the same six statistics as last time: mean, median, mode, standard deviation, variance, and range.\n\nWho trusts politicians the most: people who identify as female, male, or non-binary?\nMalesFemalesNon-binary people\nWho trusts scientists the most: people who identify as female, male, or non-binary?\nMalesFemalesNon-binary people"
+  },
+  {
+    "objectID": "descriptives.html#save-your-work",
+    "href": "descriptives.html#save-your-work",
+    "title": "Descriptive Statistics in jamovi",
+    "section": "Save your work",
+    "text": "Save your work\nDon’t forget to save your work. You can also export your jamovi file as a PDF if you would like to. To do this,\n\nClick the three horizontal bars on the top left of your Jamovi screen.\nClick Export.\nEnter a file name that includes your full name and the exercise name."
+  }
+]

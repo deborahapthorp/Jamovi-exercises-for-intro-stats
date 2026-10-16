@@ -1,0 +1,20 @@
+project:
+  type: website
+
+website:
+  title: "Jamovi website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - descriptives.qmd
+
+format:
+  html:
+    css: webex.css
+    include-after-body: webex.js
+
+
+editor: visual
+
