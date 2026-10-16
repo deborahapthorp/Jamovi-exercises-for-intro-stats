@@ -2,6 +2,7 @@
 title: "About"
 ---
 
-These interactive tutorials will guide you through the basics of using [jamovi](https://www.jamovi.org/), which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like). 
+These interactive tutorials will guide you through the basics of using [jamovi](https://www.jamovi.org/), which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).
 
 The tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data", by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the [OSF](https://osf.io/evdjz/). The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021.
+

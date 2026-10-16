@@ -5,18 +5,7 @@ title: "Descriptive Statistics in jamovi"
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library("exams2forms")
-exm <- list(
-  c("swisscapital.Rmd", "capitals.Rmd"),
-  "deriv.Rnw",
-  "deriv2.Rnw",
-  "fruit.Rmd",
-  "boxplots.Rmd",
-  "ttest.Rmd",
-  "function.Rmd",
-  "lm2.Rnw",
-  "fourfold2.Rmd"
-)
+library(exams2forms)
 library(vembedr)
 ```
 
@@ -30,6 +19,7 @@ If you want to learn about this topic, see [The Politics of Climate Change](http
 (License available [here](https://osf.io/jsd6g/files/htgbx))
 
 ## Background Videos
+
 Before starting this tutorial, watch the following videos to learn about calculating descriptive statistics.
 
 ### Descriptive Statistics (5 minutes 26 seconds)
@@ -54,6 +44,7 @@ embed_youtube("-t1Q52QChoo")
 If you prefer written explanations of the steps involved, see Section 4 in [Learning Statistics with Jamovi](https://www.learnstatswithjamovi.com/).
 
 ## Set up jamovi
+
 If you have not yet set up jamovi for the computer you are now using:
 
 1. Using the website [jamovi.org](https://www.jamovi.org/), install jamovi onto your computer. Use the “solid” version that is recommended for most users.

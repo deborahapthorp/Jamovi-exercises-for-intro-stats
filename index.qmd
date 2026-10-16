@@ -1,8 +1,8 @@
 ---
-title: "Jamovi website"
+title: "Jamovi exercises for Introdutory Statistics - Climate Change Data"
 ---
 
-This is a Quarto website.
+This website was programmed in Quarto. 
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 

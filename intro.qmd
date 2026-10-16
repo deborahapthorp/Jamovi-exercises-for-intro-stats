@@ -1,0 +1,174 @@
+---
+title: "Introduction to jamovi"
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(exams2forms)
+library(vembedr)
+```
+## Purpose
+
+The purpose of this exercise is to introduce you to jamovi, a powerful, easy-to-use statistics program that is also FREE. You can install jamovi on your Windows, Mac, Linux, or Chromebook. If you do not have access to one of those types of computers, you can use jamovi in a simple [online format](https://www.jamovi.org/cloud.html). In this exercise, you will learn the basics of jamovi and then use it to calculate some probabilities.
+
+During this exercise, you will explore probabilities related to sustainability. If you want to learn more about sustainability and climate change, see [What You Can do About Climate Change](https://www.epa.gov/climate-change/what-you-can-do-about-climate-change).
+
+## Background Videos
+
+Before starting this exercise, watch the following videos to learn about jamovi:
+
+1. Installing jamovi (33 seconds)
+
+```{r video 1, echo=FALSE} 
+embed_youtube("syx0f4xCxpk")
+
+```
+
+
+2. Navigating jamovi (5 minutes 20 seconds)
+
+```{r video 2, echo=FALSE} 
+embed_youtube("e2Wc2wpWk4Y")
+
+```
+
+
+3. Sharing Files (1 minute 31 seconds)
+
+```{r video 3, echo=FALSE} 
+embed_youtube("X0GNondPmrk")
+
+```
+
+4. Importing Data (4 minutes 50 seconds)
+
+```{r video 4, echo=FALSE} 
+embed_youtube("R0uE4LlHeac")
+
+```
+
+If you prefer written explanations of the steps involved, see Section 3 in [Learning Statistics with jamovi](https://www.learnstatswithjamovi.com/).
+
+
+## Set up jamovi
+
+If you have not yet set up jamovi for the computer you are now using:
+
+- Using the website [jamovi.org](https://www.jamovi.org/), install jamovi onto your computer. Use the “solid” version that is recommended for most users.
+
+- Open jamovi.
+
+- In this set of exercises, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this,
+
+    - Click the three dots on the top right of the Jamovi screen to change your preferences.
+    
+    - Look at the section for Results.
+
+    - For Number format, use the drop-down menu to change decimal places to 2 dp.
+    
+::: columns
+::: {.column width="50%"}
+    
+  ![The three dots for settings](images/ThreeDots.png) 
+  
+:::
+::: {.column width="50%"}
+  ![Change to two decimal places](images/NumberFormat.png)
+:::
+:::
+
+## Data Set
+
+- If you do not have the dataset Climate Change Data.omv download it from the [Open Science Framework website](https://osf.io/jsd6g/)
+
+- Open this dataset in jamovi.
+
+- Save your jamovi file with a file name that includes your full name and the tutorial name. This will help you find it later when you want to do a similar analysis. 
+
+Example: “Taylor Swift PSYC 422 Introduction to jamovi.omv”
+
+## Calculate Simple Probabilities
+
+Calculate the percentage of participants who *often* wish or *almost always* wish they behaved more sustainably. To do this:
+
+1. Click the Frequencies menu.
+
+2. In the Contingency Tables section, click Independent Samples.
+
+3. Move the variable **PRCC17** (“I wish I behaved more sustainably.”) to Rows. To do this, highlight the variable **PRCC17**. Then click the arrow that points to the right to move this variable into the box that says Rows.
+
+4. Move **Gender** to Columns.
+
+5. Look at the right-hand side of jamovi, where it shows your output. You should see a Contingency Table with four columns and six rows.
+
+-  Columns are vertical. You should have columns for Female, Male, Non-binary, and Total.
+  
+- Rows are horizontal. You should have rows for Never, Rarely, Sometimes, Often, Almost always, and Total.
+  
+- Cells are the intersections of rows and columns. There should be 24 cells in your table; each cell should have a number in it.
+  
+6. Look at the left-hand side of jamovi, again, where you tell it what analysis you want to do. In the Cells section, check the box to indicate you want the Percentages for Row.
+
+7. In the output table, look at the row that says Total. Read off the percentage of participants who are male.
+
+- Note that jamovi considers percentages to be 2 decimals. For example, 32% is 2 decimals, whereas 32.78% would be 4 decimals. In this course, we will present results to 2 decimals.
+
+**Question 1**: What percentage of participants are male (whole number)? `r forms_num(57)`
+
+8. In jamovi, in the Cells section, indicate you want the Percentages for Column. To make the output easier to read, **uncheck the box that shows the Percentages for Row**. 
+
+9. In the output table, look at the column that says Total.
+ -  22% of participants said they often wish they behaved more sustainably.
+ - Find the percentage who said they *almost always* wish they behaved more sustainably.
+ - **Add these percentages together**.
+ 
+**Question 2**: What percentage of participants *often* or *almost always* wish they behaved more sustainably (whole number)? `r forms_num(33)`
+
+
+## Calculate a Joint Probability
+
+A joint probability is the probability of two events occurring simultaneously. Calculate the percentage of participants who are female and who rarely wish they behaved more sustainably. To do this: 
+
+1. In the Cells section, indicate you want the Percentages for Total. To make your output easier to read, you can uncheck the box for Column.
+
+2. On your output table, look in the cell for *female* and *rarely*. Read off the percentage of participants who are female and *rarely* wish they behaved more sustainably.
+
+**Question 3**: What percentage of *female* participants *rarely* wish they behaved more sustainably (whole number)? `r forms_num(4)`
+
+## Calculate a Conditional Probability
+
+1. A conditional probability is the probability of one event occurring assuming another event has already occurred. For those people who almost always wish they behaved more sustainably, calculate the percentage who are female. To do this: 
+
+2. In the Cells section, indicate you want percentages for Row.To make your output easier to read, you can uncheck the box for Total.
+
+3. Look at the row of results for almost always. Of participants who almost always wish they behaved more sustainably, read the percentage who are female.
+
+**Question 4**: What percentage  participants who *almost always* wish they behaved more sustainably are *female*? (whole number)? `r forms_num(52)`
+
+## How to Delete Output
+
+If you made any mistakes when you were working, you might need to remove a portion of your output. For example, if you did the same analysis twice, you should delete the extra analysis. To delete a portion of your output:
+
+1. Right click the title for that part of your output.
+
+2. From the drop-down menu, click Analyses.
+
+3. From the side-menu, click Remove.
+
+## Save and Export
+
+1. Now that you have answered all the questions, save them all in a Word file. This way, you’ll have all of your answers.
+
+2. Save your jamovi file again, so that you have everything you did. This file will be helpful in the future.
+
+3. Export your jamovi output to a pdf file. To do this,
+
+- Click the three horizontal bars on the top left of your jamovi screen.
+
+- Click Export.
+
+- Enter a file name that includes your full name, the assignment name, and the word Output. Example: “Rick Astley PSY422 Introduction to jamovi Output.pdf”
+
+- Select Portable Document Format (.pdf).
+
+- Click Export.
