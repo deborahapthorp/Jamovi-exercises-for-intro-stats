@@ -26,41 +26,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -151,6 +116,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link active" href="./transforms.html" aria-current="page"> 
 <span class="menu-text">Transforming data in jamovi</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./t-tests.html"> 
+<span class="menu-text">Single-sample t tests</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -212,7 +181,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="computing-z-scores-1-minute-56-seconds" class="level2">
 <h2 class="anchored" data-anchor-id="computing-z-scores-1-minute-56-seconds">Computing z-scores (1 minute 56 seconds)</h2>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">embed_youtube</span>(<span class="st">"EBvvkvqm9_o"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output-display">
 <div class="vembedr">
 <div>
@@ -299,13 +267,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="callout-body-container callout-body">
 <p>The groupings for <strong>Age - 2 Groups</strong> and <strong>Age - Categorical</strong> are the same.</p>
-<p><select class="webex-select" id="webex-44298e98556821e72de82ca78192532c" data-answer="bwUeCWU="><option value="blank"></option><option>True</option><option>False</option></select></p>
+<p><select class="webex-select" id="webex-1bbdd528a969585ff3cf6da5cd275da1" data-answer="alNOVDk="><option value="blank"></option><option>True</option><option>False</option></select></p>
 </div>
 </div>
 </section>
 <section id="reverse-coding-an-item" class="level2">
 <h2 class="anchored" data-anchor-id="reverse-coding-an-item">Reverse-Coding an Item</h2>
-<p>Eleven of the variables in this data set were designed to measure <em>hope about climate change</em> (Li &amp; Monroe, 2017). They are:</p>
+<p>Eleven of the variables in this data set were designed to measure <em>hope about climate change</em> (<a href="https://www.researchgate.net/publication/317019350_Development_and_Validation_of_the_Climate_Change_Hope_Scale_for_High_School_Students">Li &amp; Monroe, 2017</a>). They are:</p>
 <ol type="1">
 <li><p>I believe people will be able to solve problems caused by climate change. (<strong>CCHS1</strong>)</p></li>
 <li><p>I believe scientists will be able to find ways to solve problems caused by climate change. (<strong>CCHS2</strong>)</p></li>
@@ -415,7 +383,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The mean for the CCHS is <input class="webex-solveme nospaces" id="webex-729fd8ae5db31aabf3db50ae95aeb858" data-tol="0" size="7" data-answer="bBAMVUoBU0do"> (2dp).</p>
+<p>The mean for the CCHS is <input class="webex-solveme nospaces" id="webex-856fe956ae52cdd45b39d1336f936405" data-tol="0" size="7" data-answer="YxcDVUsABxQ8"> (2dp).</p>
 </div>
 </div>
 <ol start="9" type="1">
@@ -433,7 +401,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div class="callout-body-container callout-body">
 <p>Who is more hopeful about climate change, participants who are under 30 or 30+?</p>
-<p><select class="webex-select" id="webex-cae2c0df7dbed56a615a3955341331e3" data-answer="OFFJAz4="><option value="blank"></option><option>30+</option><option>Under 30</option></select></p>
+<p><select class="webex-select" id="webex-28f6f16287b02da8b36738df40d737b1" data-answer="aQhKBzs="><option value="blank"></option><option>30+</option><option>Under 30</option></select></p>
 </div>
 </div>
 </section>
@@ -483,7 +451,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Once you recode missing values to 1, the mean for vegetarian/vegan meals eaten by under-30s is <input class="webex-solveme nospaces" id="webex-174c71406182393a2a712540db7dce7e" data-tol="0" size="7" data-answer="ahUATQIFFm0="> (2dp).</p>
+<p>Once you recode missing values to 1, the mean for vegetarian/vegan meals eaten by under-30s is <input class="webex-solveme nospaces" id="webex-6453afde6ef9a06605eaa89e5f5d77a0" data-tol="0" size="7" data-answer="bRYBHVRSRjg="> (2dp).</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -496,7 +464,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Once you recode missing values to 1, the mean for vegetarian/vegan meals eaten by over-30s is <input class="webex-solveme nospaces" id="webex-1da471dd030b8360142c2918fedb8b24" data-tol="0" size="7" data-answer="akZVGgUHRjk="> (2dp).</p>
+<p>Once you recode missing values to 1, the mean for vegetarian/vegan meals eaten by over-30s is <input class="webex-solveme nospaces" id="webex-1b77b28c040929165b39bb63d7c8c0de" data-tol="0" size="7" data-answer="akADGVAEGj4="> (2dp).</p>
 </div>
 </div>
 </section>

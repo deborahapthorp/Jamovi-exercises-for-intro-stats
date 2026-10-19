@@ -147,6 +147,76 @@
     "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to filter data."
   },
   {
+    "objectID": "t-tests.html",
+    "href": "t-tests.html",
+    "title": "Single-sample t tests",
+    "section": "",
+    "text": "This assignment will explore knowledge of climate change and how to reduce it. If you want to learn more about these topics, see Ted Climate Change - Earth’s Giant Game of Tetris and/or United Nations Ten Actions."
+  },
+  {
+    "objectID": "t-tests.html#purpose",
+    "href": "t-tests.html#purpose",
+    "title": "Single-sample t tests",
+    "section": "",
+    "text": "This assignment will explore knowledge of climate change and how to reduce it. If you want to learn more about these topics, see Ted Climate Change - Earth’s Giant Game of Tetris and/or United Nations Ten Actions."
+  },
+  {
+    "objectID": "t-tests.html#introductory-video",
+    "href": "t-tests.html#introductory-video",
+    "title": "Single-sample t tests",
+    "section": "Introductory Video",
+    "text": "Introductory Video\nBefore starting this tutorial, watch the short video below to learn about single sample t-tests in jamovi. If you prefer written explanations of the steps involved, see Section 11.2 in Learning Statistics with Jamovi."
+  },
+  {
+    "objectID": "t-tests.html#one-sample-t-test-video-7-minutes-7-seconds",
+    "href": "t-tests.html#one-sample-t-test-video-7-minutes-7-seconds",
+    "title": "Single-sample t tests",
+    "section": "One-sample t-test video (7 minutes, 7 seconds)",
+    "text": "One-sample t-test video (7 minutes, 7 seconds)"
+  },
+  {
+    "objectID": "t-tests.html#set-up-jamovi",
+    "href": "t-tests.html#set-up-jamovi",
+    "title": "Single-sample t tests",
+    "section": "Set Up jamovi",
+    "text": "Set Up jamovi\nIf you have not yet set up jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\n\n\nIn these exercises, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this:\n\nClick the three dots on the top right of the jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp."
+  },
+  {
+    "objectID": "t-tests.html#set-up-p-values",
+    "href": "t-tests.html#set-up-p-values",
+    "title": "Single-sample t tests",
+    "section": "Set Up p-values",
+    "text": "Set Up p-values\n\nIn these exercises, you should report p-values to 3 decimal places. Therefore, set the p-value format so you can see 3 decimal places. To do this,\n\n\nClick on the three dots on the top right of the jamovi screen to change your preferences.\nLook at the section for Results.\nFor p-value format, use the drop-down menu to make sure decimal places is set to 3 dp."
+  },
+  {
+    "objectID": "t-tests.html#data-set",
+    "href": "t-tests.html#data-set",
+    "title": "Single-sample t tests",
+    "section": "Data Set",
+    "text": "Data Set\n\nIf you do not have the dataset Climate Change Data.omv, download it from the Open Science Framework website.\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the exercise name.\n\nExample: “Walter Mitty PSYC 422 Single Sample in Jamovi.omv”"
+  },
+  {
+    "objectID": "t-tests.html#performing-the-single-sample-t-test---test-yourself",
+    "href": "t-tests.html#performing-the-single-sample-t-test---test-yourself",
+    "title": "Single-sample t tests",
+    "section": "Performing the Single Sample t-test - test yourself!",
+    "text": "Performing the Single Sample t-test - test yourself!\n\nIn the test value box, replace “0” with “6” to indicate the hypothesis you are testing.\nUse the output in your jamovi file to answer the questions below. Don’t forget to report the t-value to 2dp and the p-value to 3dp.\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nThe value of t obtained is , and the value of p is \n\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nThe mean value on the item “I know what to do to help solve problems caused by climate change” is  and the median is \n\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nShould you retain or reject the null hypothesis?\nRetainReject"
+  },
+  {
+    "objectID": "t-tests.html#confidence-intervals---test-yourself",
+    "href": "t-tests.html#confidence-intervals---test-yourself",
+    "title": "Single-sample t tests",
+    "section": "Confidence intervals - test yourself!",
+    "text": "Confidence intervals - test yourself!\n\nIn the jamovi output, look at the 95% Confidence Interval. This is NOT the confidence interval we want. Instead, it is the confidence interval for the difference between the test value (i.e., 6) and the population mean. To get the confidence interval for the population mean, you need to add the test value (i.e., 6) to the Lower and Upper limits given by jamovi. Calculate the lower bound, and use this number as your answer to the first question.\nCalculate the upper bound for the confidence interval for the population mean. Use this as your answer to the second question.\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nThe lower bound of the confidence interval for the population mean is  and the upper bound is"
+  },
+  {
+    "objectID": "t-tests.html#save-your-work",
+    "href": "t-tests.html#save-your-work",
+    "title": "Single-sample t tests",
+    "section": "Save your work!",
+    "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to do a single-sample t-test."
+  },
+  {
     "objectID": "intro.html",
     "href": "intro.html",
     "title": "Introduction to jamovi",
@@ -256,7 +326,7 @@
     "href": "transforms.html#computing-z-scores-1-minute-56-seconds",
     "title": "Transforming data in jamovi",
     "section": "Computing z-scores (1 minute 56 seconds)",
-    "text": "Computing z-scores (1 minute 56 seconds)\n\nembed_youtube(\"EBvvkvqm9_o\")"
+    "text": "Computing z-scores (1 minute 56 seconds)"
   },
   {
     "objectID": "transforms.html#transforming-scores-to-categories-3-minute-42-seconds",

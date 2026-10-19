@@ -12,6 +12,7 @@ website:
       - descriptives.qmd
       - subgroups.qmd
       - transforms.qmd
+      - t-tests.qmd
 
 format:
   html:
