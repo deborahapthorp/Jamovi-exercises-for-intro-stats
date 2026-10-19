@@ -54,11 +54,11 @@ If you have not yet set up jamovi for the computer you are now using:
 
 3. In this course, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this,
 
-    - Click the three dots on the top right of the Jamovi screen to change your preferences.
+  - Click the three dots on the top right of the Jamovi screen to change your preferences.
     
-    - Look at the section for Results.
+  - Look at the section for Results.
 
-    - For Number format, use the drop-down menu to change decimal places to 2 dp.
+  - For Number format, use the drop-down menu to change decimal places to 2 dp.
     
 ::: columns
 ::: {.column width="50%"}

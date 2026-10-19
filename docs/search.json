@@ -25,7 +25,7 @@
     "href": "descriptives.html#set-up-jamovi",
     "title": "Descriptive Statistics in jamovi",
     "section": "Set up jamovi",
-    "text": "Set up jamovi\nIf you have not yet set up jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\nIn this course, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this,\n\nClick the three dots on the top right of the Jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp.\n\n\n\n\n\n\n\nThe three dots for settings\n\n\n\n\n\n\nChange to two decimal places"
+    "text": "Set up jamovi\nIf you have not yet set up jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\nIn this course, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this,\n\n\nClick the three dots on the top right of the Jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp.\n\n\n\n\n\n\nThe three dots for settings\n\n\n\n\n\n\nChange to two decimal places"
   },
   {
     "objectID": "descriptives.html#data-set",
@@ -145,6 +145,97 @@
     "title": "Subgroups in jamovi",
     "section": "Save your work!",
     "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to filter data."
+  },
+  {
+    "objectID": "independent-samples.html",
+    "href": "independent-samples.html",
+    "title": "Independent samples t-tests",
+    "section": "",
+    "text": "This tutorial will show you how to conduct an independent-samples t-test (sometimes known as a two-sample t-test) and give you some tips on reporting results in APA format."
+  },
+  {
+    "objectID": "independent-samples.html#purpose",
+    "href": "independent-samples.html#purpose",
+    "title": "Independent samples t-tests",
+    "section": "",
+    "text": "This tutorial will show you how to conduct an independent-samples t-test (sometimes known as a two-sample t-test) and give you some tips on reporting results in APA format."
+  },
+  {
+    "objectID": "independent-samples.html#background-videos",
+    "href": "independent-samples.html#background-videos",
+    "title": "Independent samples t-tests",
+    "section": "Background Videos",
+    "text": "Background Videos\nYou may already be familiar with how to calculate descriptive statistics from other tutorials; however, if you need a refresher, you could watch the following videos:\n\nDescriptive statistics (5 minutes 26 seconds)\nComputing means (3 minutes 54 seconds)\n\nBefore starting this tutorial, watch the short video on the next slide to learn about independent samples t-tests.\nIf you prefer written explanations of the steps involved, see Section 11.3 in Learning Statistics with Jamovi."
+  },
+  {
+    "objectID": "independent-samples.html#set-up-jamovi",
+    "href": "independent-samples.html#set-up-jamovi",
+    "title": "Independent samples t-tests",
+    "section": "Set up Jamovi",
+    "text": "Set up Jamovi\nIf you have not yet done so, download Jamovi and set it up to show numbers to 2 decimal places and p-values to 3 decimal places. See previous tutorials if you don’t know how to do this."
+  },
+  {
+    "objectID": "independent-samples.html#data-set",
+    "href": "independent-samples.html#data-set",
+    "title": "Independent samples t-tests",
+    "section": "Data Set",
+    "text": "Data Set\n\nNote: If you do not have the dataset Climate Change Data.omv download it from the Open Science Framework.\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the assignment name.\n\nExample: “Dane Geros PSYC 422 Independent Samples in Jamovi.omv”"
+  },
+  {
+    "objectID": "independent-samples.html#describe-the-sample",
+    "href": "independent-samples.html#describe-the-sample",
+    "title": "Independent samples t-tests",
+    "section": "Describe the Sample",
+    "text": "Describe the Sample\nCalculate descriptive statistics to describe the sample.\n\nCalculate the mean and standard deviation of ages for all participants in the sample. That’s okay. Answer Question 1.\nUse a new analysis to get descriptive information for the variable gender. Use Frequency Tables to obtain the number of female, male, and non-binary participants in the sample. Answer Question 2."
+  },
+  {
+    "objectID": "independent-samples.html#check-your-answers",
+    "href": "independent-samples.html#check-your-answers",
+    "title": "Independent samples t-tests",
+    "section": "Check your answers",
+    "text": "Check your answers\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nThe mean participant age was  and the standard deviation was \n\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\n participants said they were female,  said they were male, and  said they were non-binary."
+  },
+  {
+    "objectID": "independent-samples.html#compare-the-frequency-of-recycling-by-under-30-and-30-year-old-participants",
+    "href": "independent-samples.html#compare-the-frequency-of-recycling-by-under-30-and-30-year-old-participants",
+    "title": "Independent samples t-tests",
+    "section": "Compare the Frequency of Recycling by Under 30 and 30+ Year Old Participants",
+    "text": "Compare the Frequency of Recycling by Under 30 and 30+ Year Old Participants\nThe Psychological Responses to Climate Change (Clayton & Karazsia, 2020) asked respondents how often they recycle. In this section, we will compare the frequency of recycling reported by participants under 30 and participants 30+ years old. We will test the null hypothesis that the mean frequency of recycling is the same across age groups - \\(H_0: \\mu(under 30) = \\mu(30+)\\) - vs. the alternative hypothesis that the means are different - \\(𝐻_1:\\mu(under 30) \\ne \\mu(30+)\\).\n\nConduct an independent-samples t-test.\nUse the variables PRCC18 (“I recycle.”) and group by Age - Categorical (“Age”).\nRequest the Student’s t test.\nUnder Additional Statistics, ask for the 95% Confidence interval for the Mean Difference, Descriptives, and Descriptive plots."
+  },
+  {
+    "objectID": "independent-samples.html#report-your-results",
+    "href": "independent-samples.html#report-your-results",
+    "title": "Independent samples t-tests",
+    "section": "Report Your Results",
+    "text": "Report Your Results\nIn Psychology, we would summarize the hypothesis test results in a single sentence, as below. Fill in the blanks to report your result.\nNote that when summarizing an independent samples t-test, you need to start with a sentence that can be understood by someone who has never taken a statistics course: a sentence that summarizes what you found. This statement must say who you studied (e.g., people who were under 30 and at least 30), what variable(s) you measured (e.g., recycling), and what you concluded (e.g., participants 30+ recycled more). Then, in parentheses, give your statistical results: test statistic (degrees of freedom) = observed value, p = p-value, 95% confidence interval for the mean difference = [lower limit, upper limit]. Note that the test statistic (in our case t) and the symbol for p-value (p) are in italics.\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nCompared to participants under 30, those who were at least 30 years old recycled  frequently, t() = , p = ; 95% confidence interval for the mean difference = [, ]."
+  },
+  {
+    "objectID": "independent-samples.html#compare-the-extent-to-which-concerns-about-climate-change-interfere-with-fun-for-participants-under-30-and-30",
+    "href": "independent-samples.html#compare-the-extent-to-which-concerns-about-climate-change-interfere-with-fun-for-participants-under-30-and-30",
+    "title": "Independent samples t-tests",
+    "section": "Compare the Extent to Which Concerns About Climate Change Interfere with Fun for Participants Under 30 and 30+",
+    "text": "Compare the Extent to Which Concerns About Climate Change Interfere with Fun for Participants Under 30 and 30+\nThe Psychological Responses to Climate Change (Clayton & Karazsia, 2020) asked respondents how often climate change interferes with them having fun. In this section, we will compare younger and older participants on this variable. We will test the null hypothesis that the levels of interference are the same for participants who are under 30 and those who are at least 30 (\\(𝐻_0: \\mu(under 30) = \\mu(30+)\\)) vs. the alternative hypothesis that the means are different (\\(𝐻_1: \\mu(under 30) \\ne \\mu(30+)\\)).\n\nUse the variables PRCC9 (“My concerns about climate change make it hard for me to have fun with my family or friends”) and group by Age - Categorical.\nRequest the Student’s t test.\nUnder Additional Statistics, ask for the 95% Confidence interval for the Mean Difference, Descriptives, and Descriptive plots.\nConsider how often people experienced concerns about climate change that interfered with having fun. Note that participants reported the frequency of this interference using the same response scale as above:\n\n1 = Never 2 = Rarely 3 = Sometimes 4 = Often 5 = Almost always\n\nUse these results to answer the question about who experiences more concerns about climate change making it hard to have fun with family or friends, on average - individuals under 30 or 30+?\nUse table showing the independent samples t-test for climate change making it hard to have fun to answer Question 4."
+  },
+  {
+    "objectID": "independent-samples.html#report-your-results-1",
+    "href": "independent-samples.html#report-your-results-1",
+    "title": "Independent samples t-tests",
+    "section": "Report Your Results",
+    "text": "Report Your Results\nIn Psychology, we would summarize the hypothesis test results in a single sentence, as below. Fill in the blanks to report your result.\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nCompared to individuals under 30, individuals over 30 reported  levels of concern about climate change interfering with their fun, t() = (), p ; 95% confidence interval for the mean difference = [, ]."
+  },
+  {
+    "objectID": "independent-samples.html#graphing-your-results",
+    "href": "independent-samples.html#graphing-your-results",
+    "title": "Independent samples t-tests",
+    "section": "Graphing your results",
+    "text": "Graphing your results\n\n\n\n\n\n\n\nTipQuestion 5\n\n\n\nIn the image above, the graph on the left represents the variable (variable name) , while the graph on the right represents the variable . The X axis label for both graphs should be , and the X tick (category) labels should read  and ."
+  },
+  {
+    "objectID": "independent-samples.html#save-your-work",
+    "href": "independent-samples.html#save-your-work",
+    "title": "Independent samples t-tests",
+    "section": "Save your work!",
+    "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to do an independent samples t-test."
   },
   {
     "objectID": "t-tests.html",
@@ -291,7 +382,7 @@
     "href": "index.html",
     "title": "About this site",
     "section": "",
-    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021.\nThis website was programmed in Quarto.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF.\nThe data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in December 2021. The participants were told about the study on Amazon’s Mechanical Turk (MTurk) webpage. If they decided to participate, they were immediately sent to a short online questionnaire, which asked them the questions for which we have data. The questionnaire took about 10 minutes. Participants received $3 in return for their participation.\nThis website was programmed in Quarto.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   },
   {
     "objectID": "transforms.html",

@@ -4,7 +4,9 @@ title: "About this site"
 
 These interactive tutorials will guide you through the basics of using [jamovi](https://www.jamovi.org/), which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).
 
-The tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data", by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the [OSF](https://osf.io/evdjz/). The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021.
+The tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data", by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the [OSF](https://osf.io/evdjz/). 
+
+The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in December 2021. The participants were told about the study on Amazon’s Mechanical Turk (MTurk) webpage. If they decided to participate, they were immediately sent to a short online questionnaire, which asked them the questions for which we have data. The questionnaire took about 10 minutes. Participants received \$3 in return for their participation. 
 
 This website was programmed in Quarto. 
 
