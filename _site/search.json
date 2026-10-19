@@ -133,13 +133,6 @@
     "text": "Save and Export\n\nNow that you have answered all the questions, save them all in a Word file. This way, you’ll have all of your answers.\nSave your jamovi file again, so that you have everything you did. This file will be helpful in the future.\nExport your jamovi output to a pdf file. To do this,\n\n\nClick the three horizontal bars on the top left of your jamovi screen.\nClick Export.\nEnter a file name that includes your full name, the assignment name, and the word Output. Example: “Rick Astley PSY422 Introduction to jamovi Output.pdf”\nSelect Portable Document Format (.pdf).\nClick Export."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021."
-  },
-  {
     "objectID": "subgroups.html",
     "href": "subgroups.html",
     "title": "Subgroups in jamovi",
@@ -222,5 +215,12 @@
     "title": "Subgroups in jamovi",
     "section": "Save your work!",
     "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to filter data."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021."
   }
 ]
