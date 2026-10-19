@@ -96,12 +96,29 @@ Using the Climate Change Trust Scale (Barchard, Hoffman, Okagawa, & Odents, 2021
 
 ### Check your answers
 
-The mean for how much all participants trust what *politicians* say about climate change is `r forms_num(1.79)`
+::: {.callout-tip}
+
+## Question 1
+
+The mean for how much all participants trust what *politicians* say about climate change is `r forms_num((1.79), width = 7)`
+
+:::
 
 
-The mean for how much all participants trust what *scientists* say about climate change is `r forms_num(3.95)`
+::: {.callout-tip}
+
+## Question 2
+The mean for how much all participants trust what *scientists* say about climate change is `r forms_num((3.95), width = 7)`
+
+:::
+
+::: {.callout-tip}
+
+## Question 3
 
 For which variable is there more variability – trust in what politicians say or trust in what scientists say? `r forms_schoice(c("CCTS_Politicians_Say", "CCTS_Scientists_Say"), c(FALSE, TRUE), display = "dropdown")`
+
+:::
 
 ## Descriptive Statistics for Subsamples
 
@@ -114,13 +131,25 @@ Often researchers are interested in particular groups of participants. Here, we 
 3. Calculate the same six statistics as last time: mean, median, mode, standard deviation, variance, and range.
 
 
+::: {.callout-tip}
+
+## Question 4
+
 Who trusts politicians the most: people who identify as female, male, or non-binary? 
 
 `r forms_schoice(c("Males", "Females", "Non-binary people"), c(TRUE, FALSE, FALSE), display = "dropdown")`
 
+:::
+
+::: {.callout-tip}
+
+## Question 5
+
 Who trusts scientists the most: people who identify as female, male, or non-binary?
 
 `r forms_schoice(c("Males", "Females", "Non-binary people"), c(FALSE, FALSE, TRUE), display = "dropdown")`
+
+:::
 
 ## Save your work
 

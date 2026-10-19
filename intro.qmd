@@ -83,7 +83,7 @@ If you have not yet set up jamovi for the computer you are now using:
 
 - Open this dataset in jamovi.
 
-- Save your jamovi file with a file name that includes your full name and the tutorial name. This will help you find it later when you want to do a similar analysis. 
+- Save your jamovi file with a file name that includes your full name and the exercise name. This will help you find it later when you want to do a similar analysis. 
 
 Example: “Taylor Swift PSYC 422 Introduction to jamovi.omv”
 
@@ -113,7 +113,13 @@ Calculate the percentage of participants who *often* wish or *almost always* wis
 
 - Note that jamovi considers percentages to be 2 decimals. For example, 32% is 2 decimals, whereas 32.78% would be 4 decimals. In this course, we will present results to 2 decimals.
 
-**Question 1**: What percentage of participants are male (whole number)? `r forms_num(57)`
+::: {.callout-tip}
+
+## Question 1
+
+What percentage of participants are male (whole number)? `r forms_num((57), width = 7)`
+
+:::
 
 8. In jamovi, in the Cells section, indicate you want the Percentages for Column. To make the output easier to read, **uncheck the box that shows the Percentages for Row**. 
 
@@ -122,8 +128,14 @@ Calculate the percentage of participants who *often* wish or *almost always* wis
  - Find the percentage who said they *almost always* wish they behaved more sustainably.
  - **Add these percentages together**.
  
-**Question 2**: What percentage of participants *often* or *almost always* wish they behaved more sustainably (whole number)? `r forms_num(33)`
+ 
+::: {.callout-tip}
+ 
+## Question 2
 
+What percentage of participants *often* or *almost always* wish they behaved more sustainably (whole number)? `r forms_num((33), width = 7)`
+
+:::
 
 ## Calculate a Joint Probability
 
@@ -133,7 +145,12 @@ A joint probability is the probability of two events occurring simultaneously. C
 
 2. On your output table, look in the cell for *female* and *rarely*. Read off the percentage of participants who are female and *rarely* wish they behaved more sustainably.
 
-**Question 3**: What percentage of *female* participants *rarely* wish they behaved more sustainably (whole number)? `r forms_num(4)`
+::: {.callout-tip}
+ 
+## Question 3
+What percentage of *female* participants *rarely* wish they behaved more sustainably (whole number)? `r forms_num((4), width = 7)`
+
+:::
 
 ## Calculate a Conditional Probability
 
@@ -143,7 +160,14 @@ A joint probability is the probability of two events occurring simultaneously. C
 
 3. Look at the row of results for almost always. Of participants who almost always wish they behaved more sustainably, read the percentage who are female.
 
-**Question 4**: What percentage  participants who *almost always* wish they behaved more sustainably are *female*? (whole number)? `r forms_num(52)`
+
+::: {.callout-tip}
+ 
+## Question 4
+
+What percentage  participants who *almost always* wish they behaved more sustainably are *female*? (whole number)? `r forms_num((52), width = 7)`
+
+:::
 
 ## How to Delete Output
 

@@ -10,6 +10,7 @@ website:
       - about.qmd
       - intro.qmd
       - descriptives.qmd
+      - subgroups.qmd
 
 format:
   html:
