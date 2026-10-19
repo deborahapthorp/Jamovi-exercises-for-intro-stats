@@ -1,5 +1,6 @@
 ---
 title: "Subgroups in jamovi"
+editor: source
 ---
 
 ```{r setup, include = FALSE}
@@ -12,7 +13,7 @@ library(vembedr)
 
 ## Purpose
 
-Often, we want to calculate descriptive statistics for only some of our participants. If you have already completed the Descriptives in jamovi tutorial, you will have learned how to split the data to get results for females and males. In this tutorial, you will add filters to get results for more specific groups.
+Often, we want to calculate descriptive statistics for only some of our participants. If you have already completed the **Descriptives in jamovi** tutorial, you will have learned how to split the data to get results for females and males. In this tutorial, you will add filters to get results for more specific groups.
 
 ## Background Videos
 

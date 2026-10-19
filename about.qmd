@@ -1,5 +1,6 @@
 ---
 title: "About"
+editor: source
 ---
 
 These interactive tutorials will guide you through the basics of using [jamovi](https://www.jamovi.org/), which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).

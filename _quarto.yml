@@ -11,6 +11,7 @@ website:
       - intro.qmd
       - descriptives.qmd
       - subgroups.qmd
+      - transforms.qmd
 
 format:
   html:
