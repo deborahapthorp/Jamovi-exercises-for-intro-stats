@@ -138,5 +138,89 @@
     "title": "About",
     "section": "",
     "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021."
+  },
+  {
+    "objectID": "subgroups.html",
+    "href": "subgroups.html",
+    "title": "Subgroups in jamovi",
+    "section": "",
+    "text": "Often, we want to calculate descriptive statistics for only some of our participants. If you have already completed the Descriptives in jamovi tutorial, you will have learned how to split the data to get results for females and males. In this tutorial, you will add filters to get results for more specific groups."
+  },
+  {
+    "objectID": "subgroups.html#purpose",
+    "href": "subgroups.html#purpose",
+    "title": "Subgroups in jamovi",
+    "section": "",
+    "text": "Often, we want to calculate descriptive statistics for only some of our participants. If you have already completed the Descriptives in jamovi tutorial, you will have learned how to split the data to get results for females and males. In this tutorial, you will add filters to get results for more specific groups."
+  },
+  {
+    "objectID": "subgroups.html#background-videos",
+    "href": "subgroups.html#background-videos",
+    "title": "Subgroups in jamovi",
+    "section": "Background Videos",
+    "text": "Background Videos\nYou may already be familiar with how to create histograms and how to split the file to obtain means for separate groups from other tutorials; however, if you need a refresher, you could watch the following two videos:"
+  },
+  {
+    "objectID": "subgroups.html#histograms-4-minutes-25-seconds",
+    "href": "subgroups.html#histograms-4-minutes-25-seconds",
+    "title": "Subgroups in jamovi",
+    "section": "Histograms (4 minutes 25 seconds)",
+    "text": "Histograms (4 minutes 25 seconds)"
+  },
+  {
+    "objectID": "subgroups.html#descriptive-statistics-3-minutes-54-seconds",
+    "href": "subgroups.html#descriptive-statistics-3-minutes-54-seconds",
+    "title": "Subgroups in jamovi",
+    "section": "Descriptive statistics (3 minutes 54 seconds)",
+    "text": "Descriptive statistics (3 minutes 54 seconds)\n\n\n\n\n\n\n\n\n\nBefore starting this exercise, watch the video on Filtering Cases below to learn how to filter the data."
+  },
+  {
+    "objectID": "subgroups.html#filtering-cases-8-minutes-25-seconds",
+    "href": "subgroups.html#filtering-cases-8-minutes-25-seconds",
+    "title": "Subgroups in jamovi",
+    "section": "Filtering cases (8 minutes 25 seconds)",
+    "text": "Filtering cases (8 minutes 25 seconds)\n\n\n\n\n\n\n\n\n\nIf you prefer written explanations of the steps involved, see section 6.5 of Learning Statistics with Jamovi"
+  },
+  {
+    "objectID": "subgroups.html#set-up-jamovi",
+    "href": "subgroups.html#set-up-jamovi",
+    "title": "Subgroups in jamovi",
+    "section": "Set up jamovi",
+    "text": "Set up jamovi\nIf you have not yet set up Jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\n\n\nFor these exercises, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this, a. Click the three dots on the top right of the jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp."
+  },
+  {
+    "objectID": "subgroups.html#data-set",
+    "href": "subgroups.html#data-set",
+    "title": "Subgroups in jamovi",
+    "section": "Data Set",
+    "text": "Data Set\n\nIf you do not have the dataset Climate Change Data.omv, download it from the Open Science Framework.\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the tutorial name.\n\nExample: “Novak Djokovic PSYC 422 Subgroups in Jamovi.omv”"
+  },
+  {
+    "objectID": "subgroups.html#splitting-the-data",
+    "href": "subgroups.html#splitting-the-data",
+    "title": "Subgroups in jamovi",
+    "section": "Splitting the Data",
+    "text": "Splitting the Data\nWe want to know whether belief in climate change is influenced by personal experience. To determine this, we asked all participants to indicate if they believe the world’s climate is changing (with response options yes, no, and don’t know) and to rate how much they agreed with the statement “I have been directly affected by climate change” on a five-point frequency scale (with response options 1 = Never,2 = Rarely, 3 = Sometimes, 4 = Often, and 5 = Almost always). This second question is Item 14 on the Psychological Responses to Climate Change Climate Change (Clayton & Karazsia, 2020).\n\nCalculate sample size (N), mean, median, and mode for the variable PRCC14 (“I have been directly affected by climate change”)\nSplit the file by Doubt1 (“As far as you know, do you personally think that the world’s climate is changing?”) to obtain separate results for the three groups: yes, no, and don’t know.\nAdd histograms so you can better visualize your data.\nUse the results to answer the questions below.\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nIn this dataset,  participants believe the world’s climate is changing.\n\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nWhich group has been most affected by climate change, the people who believe in climate change or the people who don’t know if the world’s climate is changing?\nPeople who believe in climate changePeople who don’t know if the world’s climage is changing"
+  },
+  {
+    "objectID": "subgroups.html#filtering-1",
+    "href": "subgroups.html#filtering-1",
+    "title": "Subgroups in jamovi",
+    "section": "Filtering 1",
+    "text": "Filtering 1\nLike splitting data, filters can be used to get separate results for groups that are labelled by categorical variables, but filters can also be used to explore the effect of continuous variables.\n\nUnder the Data tab, click Filters.\nTo view only participants who responded that they believe the world’s climate is changing, add the filter: Doubt1 == ’Yes’. Note the capital Y on “Yes”.\nJamovi applies this filter to ALL of the results in your output window. To see this, look at your histogram. Now that the filter for Doubt1 is active, answer Question 3 below.\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nHow many groups are now shown on your histogram?\n4213"
+  },
+  {
+    "objectID": "subgroups.html#filtering-2",
+    "href": "subgroups.html#filtering-2",
+    "title": "Subgroups in jamovi",
+    "section": "Filtering 2",
+    "text": "Filtering 2\nMake the filter for Doubt1 inactive. Check your output window to ensure you can now see histograms for all three participant groups (i.e., Yes, No, and Don’t know).\n\nAdd a new filter to show the results only for participants whose age is less than 30: age &lt; 30.\nUse the Descriptives table to answer Question 4 below.\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nAmong people who are less than 30, who has been most affected by climate change (PRCC14) – the people who believe in climate change or the ones who don’t know if the world’s climate is changing (Doubt1)?\nThose who don’t know if the world’s climate is changingThose who believe in climate change"
+  },
+  {
+    "objectID": "subgroups.html#save-your-work",
+    "href": "subgroups.html#save-your-work",
+    "title": "Subgroups in jamovi",
+    "section": "Save your work!",
+    "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to filter data."
   }
 ]

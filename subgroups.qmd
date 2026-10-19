@@ -1,3 +1,145 @@
 ---
 title: "Subgroups in jamovi"
 ---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(exams2forms)
+library(vembedr)
+```
+
+
+
+## Purpose
+
+Often, we want to calculate descriptive statistics for only some of our participants. If you have already completed the Descriptives in jamovi tutorial, you will have learned how to split the data to get results for females and males. In this tutorial, you will add filters to get results for more specific groups.
+
+## Background Videos
+
+You may already be familiar with how to create histograms and how to split the file to obtain means for separate groups from other tutorials; however, if you need a refresher, you could watch the following two videos:
+
+## Histograms (4 minutes 25 seconds)
+
+```{r video histograms, echo=FALSE} 
+embed_youtube("10oomNrNe6w")
+```
+
+
+## Descriptive statistics (3 minutes 54 seconds)
+
+```{r video descriptives, echo=FALSE} 
+embed_youtube("srqNCux0ijY")
+```
+
+
+Before starting this exercise, watch the video on Filtering Cases below to learn how to filter the data.
+
+## Filtering cases (8 minutes 25 seconds)
+
+```{r video filtering, echo=FALSE} 
+embed_youtube("pij0KlFhITw")
+```
+
+
+If you prefer written explanations of the steps involved, see section 6.5 of [Learning Statistics with Jamovi](https://www.learnstatswithjamovi.com/)
+
+
+## Set up jamovi 
+
+If you have not yet set up Jamovi for the computer you are now using:
+
+1. Using the website [jamovi.org](https://www.jamovi.org), install jamovi onto your computer. Use the “solid” version that is recommended for most users.
+
+2. Open jamovi.
+
+- For these exercises, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this, a. Click the three dots on the top right of the jamovi screen to change your preferences.
+
+- Look at the section for Results.
+
+- For Number format, use the drop-down menu to change decimal places to 2 dp.
+
+## Data Set
+
+1. If you do not have the dataset Climate Change Data.omv, download it from the [Open Science Framework](https://osf.io/x4982).
+
+2. Open this dataset in jamovi.
+
+3. Save your jamovi file with a file name that includes your full name and the tutorial name.
+
+Example: “Novak Djokovic PSYC 422 Subgroups in Jamovi.omv”
+
+## Splitting the Data
+
+We want to know whether belief in climate change is influenced by personal experience. To determine this, we asked all participants to indicate if they believe the world’s climate is changing (with response options yes, no, and don’t know) and to rate how much they agreed with the statement “I have been directly affected by climate change” on a five-point frequency scale (with response options 1 = Never,2 = Rarely, 3 = Sometimes, 4 = Often, and 5 = Almost always).  This second question is Item 14 on the Psychological Responses to Climate Change Climate Change (Clayton & Karazsia, 2020). 
+
+1. Calculate sample size (N), mean, median, and mode for the variable **PRCC14** (“I have been directly affected by climate change”)
+
+2. Split the file by **Doubt1** (“As far as you know, do you personally think that the world’s climate is changing?”) to obtain separate results for the three groups: yes, no, and don’t know.
+
+3. Add histograms so you can better visualize your data.
+
+4. Use the results to answer the questions below. 
+
+::: {.callout-tip}
+
+## Question 1
+
+In this dataset, `r forms_num((457), width = 6)` participants believe the world’s climate is changing.
+
+:::
+
+
+::: {.callout-tip}
+
+## Question 2
+
+Which group has been most affected by climate change, the people who believe in climate change or the people who don’t know if the world’s climate is changing?
+
+`r forms_schoice(c("People who believe in climate change", "People who don't know if the world's climage is changing"), c(TRUE, FALSE), display = "dropdown")`
+
+:::
+
+
+## Filtering 1
+
+Like splitting data, filters can be used to get separate results for groups that are labelled by categorical variables, but filters can also be used to explore the effect of continuous variables.
+
+1. Under the Data tab, click Filters.
+
+2. To view only participants who responded that they believe the world’s climate is changing, add the filter: **Doubt1 == 'Yes’**. Note the capital Y on “Yes”.
+
+3. Jamovi applies this filter to ALL of the results in your output window. To see this, look at your histogram. Now that the filter for **Doubt1** is active, answer Question 3 below.
+
+::: {.callout-tip}
+
+## Question 3
+
+How many groups are now shown on your histogram?
+
+`r forms_schoice(c("4", "2", "1", "3"), c(FALSE, FALSE, TRUE, FALSE), display = "dropdown")`
+
+:::
+
+
+## Filtering 2
+
+Make the filter for **Doubt1** inactive. Check your output window to ensure you can now see histograms for all three participant groups (i.e., Yes, No, and Don’t know).
+
+5. Add a new filter to show the results **only** for participants whose age is less than 30: **age < 30**.
+
+6. Use the Descriptives table to answer Question 4 below.
+
+::: {.callout-tip}
+
+## Question 4
+
+Among people who are less than 30, who has been most affected by climate change (**PRCC14**) – the people who believe in climate change or the ones who don’t know if the world’s climate is changing (**Doubt1**)?
+
+`r forms_schoice(c("Those who don't know if the world's climate is changing", "Those who believe in climate change"), c(FALSE, TRUE), display = "dropdown")`
+
+:::
+
+## Save your work! 
+
+Don't forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to filter data.
+
