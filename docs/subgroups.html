@@ -98,11 +98,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About this site</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./intro.html"> 
@@ -237,7 +233,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>In this dataset, <input class="webex-solveme nospaces" id="webex-aefcfaea3aba68d96c6ea3f5c0322500" data-tol="0" size="6" data-answer="OkdSVlFDOA=="> participants believe the world’s climate is changing.</p>
+<p>In this dataset, <input class="webex-solveme nospaces" id="webex-f9dc518cfbcf7f074bddcb11afb534a0" data-tol="0" size="6" data-answer="PRtQVgITZQ=="> participants believe the world’s climate is changing.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -251,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>Which group has been most affected by climate change, the people who believe in climate change or the people who don’t know if the world’s climate is changing?</p>
-<p><select class="webex-select" id="webex-6bd406f10abcdff39109dc2dc5e0a01e" data-answer="bVNIBG0="><option value="blank"></option><option>People who believe in climate change</option><option>People who don’t know if the world’s climage is changing</option></select></p>
+<p><select class="webex-select" id="webex-7dffc2492862e09b1957a6174f953c63" data-answer="bFVKVj4="><option value="blank"></option><option>People who believe in climate change</option><option>People who don’t know if the world’s climage is changing</option></select></p>
 </div>
 </div>
 </section>
@@ -274,7 +270,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>How many groups are now shown on your histogram?</p>
-<p><select class="webex-select" id="webex-b55db30e8da0bb2233222984793c9659" data-answer="OQUZVE4CHFVl"><option value="blank"></option><option>4</option><option>2</option><option>1</option><option>3</option></select></p>
+<p><select class="webex-select" id="webex-0634956b05093f541851e21bdef5b8a6" data-answer="awYfBBUEGlJt"><option value="blank"></option><option>4</option><option>2</option><option>1</option><option>3</option></select></p>
 </div>
 </div>
 </section>
@@ -296,7 +292,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>Among people who are less than 30, who has been most affected by climate change (<strong>PRCC14</strong>) – the people who believe in climate change or the ones who don’t know if the world’s climate is changing (<strong>Doubt1</strong>)?</p>
-<p><select class="webex-select" id="webex-72e316dc627015a8327d38c2e437ff21" data-answer="bAJJAmw="><option value="blank"></option><option>Those who don’t know if the world’s climate is changing</option><option>Those who believe in climate change</option></select></p>
+<p><select class="webex-select" id="webex-969f9459577f9b33da738421de529996" data-answer="YgYVV2Q="><option value="blank"></option><option>Those who don’t know if the world’s climate is changing</option><option>Those who believe in climate change</option></select></p>
 </div>
 </div>
 </section>
@@ -966,7 +962,7 @@ window.onload = function() {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/deborahapthorp\.github\.io\/Jamovi-exercises-for-intro-stats\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

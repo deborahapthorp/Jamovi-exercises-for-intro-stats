@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jamovi website",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021."
-  },
-  {
     "objectID": "descriptives.html",
     "href": "descriptives.html",
     "title": "Descriptive Statistics in jamovi",
@@ -53,14 +39,14 @@
     "href": "descriptives.html#descriptive-statistics-for-the-entire-sample",
     "title": "Descriptive Statistics in jamovi",
     "section": "Descriptive Statistics for the Entire Sample",
-    "text": "Descriptive Statistics for the Entire Sample\nUsing the Climate Change Trust Scale (Barchard, Hoffman, Okagawa, & Odents, 2021), we asked participants to tell us how much they trusted politicians and scientists, with response options 1 = None at all, 2 = A little, 3 = Moderate, 4 = A lot, 5 = A great deal. You will determine who participants trust more.\n\nUnder the Exploration menu, click Descriptives.\n\n\n\nCalculate descriptive statistics for the variable CCTS_Politicians_Say (“How much do you trust what politicians say about climate change?”) and variable CCTS_Scientists_Say (“How much do you trust what scientists say about climate change?”).\nAsk it to calculate three statistics that measure Central Tendency: Mean, Median, and Mode.\nAsk it to calculate three statistics that measure Dispersion: Standard Deviation, Variance, and Range.\n\n\nCheck your answers\nThe mean for how much all participants trust what politicians say about climate change is \nThe mean for how much all participants trust what scientists say about climate change is \nFor which variable is there more variability – trust in what politicians say or trust in what scientists say? CCTS_Politicians_SayCCTS_Scientists_Say"
+    "text": "Descriptive Statistics for the Entire Sample\nUsing the Climate Change Trust Scale (Barchard, Hoffman, Okagawa, & Odents, 2021), we asked participants to tell us how much they trusted politicians and scientists, with response options 1 = None at all, 2 = A little, 3 = Moderate, 4 = A lot, 5 = A great deal. You will determine who participants trust more.\n\nUnder the Exploration menu, click Descriptives.\n\n\n\nCalculate descriptive statistics for the variable CCTS_Politicians_Say (“How much do you trust what politicians say about climate change?”) and variable CCTS_Scientists_Say (“How much do you trust what scientists say about climate change?”).\nAsk it to calculate three statistics that measure Central Tendency: Mean, Median, and Mode.\nAsk it to calculate three statistics that measure Dispersion: Standard Deviation, Variance, and Range.\n\n\nCheck your answers\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nThe mean for how much all participants trust what politicians say about climate change is \n\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nThe mean for how much all participants trust what scientists say about climate change is \n\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nFor which variable is there more variability – trust in what politicians say or trust in what scientists say? CCTS_Politicians_SayCCTS_Scientists_Say"
   },
   {
     "objectID": "descriptives.html#descriptive-statistics-for-subsamples",
     "href": "descriptives.html#descriptive-statistics-for-subsamples",
     "title": "Descriptive Statistics in jamovi",
     "section": "Descriptive Statistics for Subsamples",
-    "text": "Descriptive Statistics for Subsamples\nOften researchers are interested in particular groups of participants. Here, we will calculate trust separately for people who identify as female, male, and non-binary.\n\nTo create another analysis without erasing the old one, click Exploration, then Descriptives.\nCalculate descriptive statistics for the same two variables: CCTS_Politicians_Say (“How much do you trust what politicians say about climate change?”) and variable CCTS_Scientists_Say (“How much do you trust what scientists say about climate change?”). However, this time, split the results by Gender.\nCalculate the same six statistics as last time: mean, median, mode, standard deviation, variance, and range.\n\nWho trusts politicians the most: people who identify as female, male, or non-binary?\nMalesFemalesNon-binary people\nWho trusts scientists the most: people who identify as female, male, or non-binary?\nMalesFemalesNon-binary people"
+    "text": "Descriptive Statistics for Subsamples\nOften researchers are interested in particular groups of participants. Here, we will calculate trust separately for people who identify as female, male, and non-binary.\n\nTo create another analysis without erasing the old one, click Exploration, then Descriptives.\nCalculate descriptive statistics for the same two variables: CCTS_Politicians_Say (“How much do you trust what politicians say about climate change?”) and variable CCTS_Scientists_Say (“How much do you trust what scientists say about climate change?”). However, this time, split the results by Gender.\nCalculate the same six statistics as last time: mean, median, mode, standard deviation, variance, and range.\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nWho trusts politicians the most: people who identify as female, male, or non-binary?\nMalesFemalesNon-binary people\n\n\n\n\n\n\n\n\nTipQuestion 5\n\n\n\nWho trusts scientists the most: people who identify as female, male, or non-binary?\nMalesFemalesNon-binary people"
   },
   {
     "objectID": "descriptives.html#save-your-work",
@@ -68,5 +54,180 @@
     "title": "Descriptive Statistics in jamovi",
     "section": "Save your work",
     "text": "Save your work\nDon’t forget to save your work. You can also export your jamovi file as a PDF if you would like to. To do this,\n\nClick the three horizontal bars on the top left of your Jamovi screen.\nClick Export.\nEnter a file name that includes your full name and the exercise name."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Jamovi exercises for Introdutory Statistics - Climate Change Data",
+    "section": "",
+    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021.\nThis website was programmed in Quarto.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "index.html#about-this-site",
+    "href": "index.html#about-this-site",
+    "title": "Jamovi exercises for Introdutory Statistics - Climate Change Data",
+    "section": "",
+    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021.\nThis website was programmed in Quarto.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction to jamovi",
+    "section": "",
+    "text": "The purpose of this exercise is to introduce you to jamovi, a powerful, easy-to-use statistics program that is also FREE. You can install jamovi on your Windows, Mac, Linux, or Chromebook. If you do not have access to one of those types of computers, you can use jamovi in a simple online format. In this exercise, you will learn the basics of jamovi and then use it to calculate some probabilities.\nDuring this exercise, you will explore probabilities related to sustainability. If you want to learn more about sustainability and climate change, see What You Can do About Climate Change."
+  },
+  {
+    "objectID": "intro.html#purpose",
+    "href": "intro.html#purpose",
+    "title": "Introduction to jamovi",
+    "section": "",
+    "text": "The purpose of this exercise is to introduce you to jamovi, a powerful, easy-to-use statistics program that is also FREE. You can install jamovi on your Windows, Mac, Linux, or Chromebook. If you do not have access to one of those types of computers, you can use jamovi in a simple online format. In this exercise, you will learn the basics of jamovi and then use it to calculate some probabilities.\nDuring this exercise, you will explore probabilities related to sustainability. If you want to learn more about sustainability and climate change, see What You Can do About Climate Change."
+  },
+  {
+    "objectID": "intro.html#background-videos",
+    "href": "intro.html#background-videos",
+    "title": "Introduction to jamovi",
+    "section": "Background Videos",
+    "text": "Background Videos\nBefore starting this exercise, watch the following videos to learn about jamovi:\n\nInstalling jamovi (33 seconds)\n\n\n\n\n\n\n\n\n\n\n\nNavigating jamovi (5 minutes 20 seconds)\n\n\n\n\n\n\n\n\n\n\n\nSharing Files (1 minute 31 seconds)\n\n\n\n\n\n\n\n\n\n\n\nImporting Data (4 minutes 50 seconds)\n\n\n\n\n\n\n\n\n\n\nIf you prefer written explanations of the steps involved, see Section 3 in Learning Statistics with jamovi."
+  },
+  {
+    "objectID": "intro.html#set-up-jamovi",
+    "href": "intro.html#set-up-jamovi",
+    "title": "Introduction to jamovi",
+    "section": "Set up jamovi",
+    "text": "Set up jamovi\nIf you have not yet set up jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\nIn this set of exercises, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this,\n\nClick the three dots on the top right of the Jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp.\n\n\n\n\n\n\n\nThe three dots for settings\n\n\n\n\n\n\nChange to two decimal places"
+  },
+  {
+    "objectID": "intro.html#data-set",
+    "href": "intro.html#data-set",
+    "title": "Introduction to jamovi",
+    "section": "Data Set",
+    "text": "Data Set\n\nIf you do not have the dataset Climate Change Data.omv download it from the Open Science Framework website\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the exercise name. This will help you find it later when you want to do a similar analysis.\n\nExample: “Taylor Swift PSYC 422 Introduction to jamovi.omv”"
+  },
+  {
+    "objectID": "intro.html#calculate-simple-probabilities",
+    "href": "intro.html#calculate-simple-probabilities",
+    "title": "Introduction to jamovi",
+    "section": "Calculate Simple Probabilities",
+    "text": "Calculate Simple Probabilities\nCalculate the percentage of participants who often wish or almost always wish they behaved more sustainably. To do this:\n\nClick the Frequencies menu.\nIn the Contingency Tables section, click Independent Samples.\nMove the variable PRCC17 (“I wish I behaved more sustainably.”) to Rows. To do this, highlight the variable PRCC17. Then click the arrow that points to the right to move this variable into the box that says Rows.\nMove Gender to Columns.\nLook at the right-hand side of jamovi, where it shows your output. You should see a Contingency Table with four columns and six rows.\n\n\nColumns are vertical. You should have columns for Female, Male, Non-binary, and Total.\nRows are horizontal. You should have rows for Never, Rarely, Sometimes, Often, Almost always, and Total.\nCells are the intersections of rows and columns. There should be 24 cells in your table; each cell should have a number in it.\n\n\nLook at the left-hand side of jamovi, again, where you tell it what analysis you want to do. In the Cells section, check the box to indicate you want the Percentages for Row.\nIn the output table, look at the row that says Total. Read off the percentage of participants who are male.\n\n\nNote that jamovi considers percentages to be 2 decimals. For example, 32% is 2 decimals, whereas 32.78% would be 4 decimals. In this course, we will present results to 2 decimals.\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nWhat percentage of participants are male (whole number)? \n\n\n\nIn jamovi, in the Cells section, indicate you want the Percentages for Column. To make the output easier to read, uncheck the box that shows the Percentages for Row.\nIn the output table, look at the column that says Total.\n\n\n22% of participants said they often wish they behaved more sustainably.\nFind the percentage who said they almost always wish they behaved more sustainably.\nAdd these percentages together.\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nWhat percentage of participants often or almost always wish they behaved more sustainably (whole number)?"
+  },
+  {
+    "objectID": "intro.html#calculate-a-joint-probability",
+    "href": "intro.html#calculate-a-joint-probability",
+    "title": "Introduction to jamovi",
+    "section": "Calculate a Joint Probability",
+    "text": "Calculate a Joint Probability\nA joint probability is the probability of two events occurring simultaneously. Calculate the percentage of participants who are female and who rarely wish they behaved more sustainably. To do this:\n\nIn the Cells section, indicate you want the Percentages for Total. To make your output easier to read, you can uncheck the box for Column.\nOn your output table, look in the cell for female and rarely. Read off the percentage of participants who are female and rarely wish they behaved more sustainably.\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nWhat percentage of female participants rarely wish they behaved more sustainably (whole number)?"
+  },
+  {
+    "objectID": "intro.html#calculate-a-conditional-probability",
+    "href": "intro.html#calculate-a-conditional-probability",
+    "title": "Introduction to jamovi",
+    "section": "Calculate a Conditional Probability",
+    "text": "Calculate a Conditional Probability\n\nA conditional probability is the probability of one event occurring assuming another event has already occurred. For those people who almost always wish they behaved more sustainably, calculate the percentage who are female. To do this:\nIn the Cells section, indicate you want percentages for Row.To make your output easier to read, you can uncheck the box for Total.\nLook at the row of results for almost always. Of participants who almost always wish they behaved more sustainably, read the percentage who are female.\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nWhat percentage participants who almost always wish they behaved more sustainably are female? (whole number)?"
+  },
+  {
+    "objectID": "intro.html#how-to-delete-output",
+    "href": "intro.html#how-to-delete-output",
+    "title": "Introduction to jamovi",
+    "section": "How to Delete Output",
+    "text": "How to Delete Output\nIf you made any mistakes when you were working, you might need to remove a portion of your output. For example, if you did the same analysis twice, you should delete the extra analysis. To delete a portion of your output:\n\nRight click the title for that part of your output.\nFrom the drop-down menu, click Analyses.\nFrom the side-menu, click Remove."
+  },
+  {
+    "objectID": "intro.html#save-and-export",
+    "href": "intro.html#save-and-export",
+    "title": "Introduction to jamovi",
+    "section": "Save and Export",
+    "text": "Save and Export\n\nNow that you have answered all the questions, save them all in a Word file. This way, you’ll have all of your answers.\nSave your jamovi file again, so that you have everything you did. This file will be helpful in the future.\nExport your jamovi output to a pdf file. To do this,\n\n\nClick the three horizontal bars on the top left of your jamovi screen.\nClick Export.\nEnter a file name that includes your full name, the assignment name, and the word Output. Example: “Rick Astley PSY422 Introduction to jamovi Output.pdf”\nSelect Portable Document Format (.pdf).\nClick Export."
+  },
+  {
+    "objectID": "subgroups.html",
+    "href": "subgroups.html",
+    "title": "Subgroups in jamovi",
+    "section": "",
+    "text": "Often, we want to calculate descriptive statistics for only some of our participants. If you have already completed the Descriptives in jamovi tutorial, you will have learned how to split the data to get results for females and males. In this tutorial, you will add filters to get results for more specific groups."
+  },
+  {
+    "objectID": "subgroups.html#purpose",
+    "href": "subgroups.html#purpose",
+    "title": "Subgroups in jamovi",
+    "section": "",
+    "text": "Often, we want to calculate descriptive statistics for only some of our participants. If you have already completed the Descriptives in jamovi tutorial, you will have learned how to split the data to get results for females and males. In this tutorial, you will add filters to get results for more specific groups."
+  },
+  {
+    "objectID": "subgroups.html#background-videos",
+    "href": "subgroups.html#background-videos",
+    "title": "Subgroups in jamovi",
+    "section": "Background Videos",
+    "text": "Background Videos\nYou may already be familiar with how to create histograms and how to split the file to obtain means for separate groups from other tutorials; however, if you need a refresher, you could watch the following two videos:"
+  },
+  {
+    "objectID": "subgroups.html#histograms-4-minutes-25-seconds",
+    "href": "subgroups.html#histograms-4-minutes-25-seconds",
+    "title": "Subgroups in jamovi",
+    "section": "Histograms (4 minutes 25 seconds)",
+    "text": "Histograms (4 minutes 25 seconds)"
+  },
+  {
+    "objectID": "subgroups.html#descriptive-statistics-3-minutes-54-seconds",
+    "href": "subgroups.html#descriptive-statistics-3-minutes-54-seconds",
+    "title": "Subgroups in jamovi",
+    "section": "Descriptive statistics (3 minutes 54 seconds)",
+    "text": "Descriptive statistics (3 minutes 54 seconds)\n\n\n\n\n\n\n\n\n\nBefore starting this exercise, watch the video on Filtering Cases below to learn how to filter the data."
+  },
+  {
+    "objectID": "subgroups.html#filtering-cases-8-minutes-25-seconds",
+    "href": "subgroups.html#filtering-cases-8-minutes-25-seconds",
+    "title": "Subgroups in jamovi",
+    "section": "Filtering cases (8 minutes 25 seconds)",
+    "text": "Filtering cases (8 minutes 25 seconds)\n\n\n\n\n\n\n\n\n\nIf you prefer written explanations of the steps involved, see section 6.5 of Learning Statistics with Jamovi"
+  },
+  {
+    "objectID": "subgroups.html#set-up-jamovi",
+    "href": "subgroups.html#set-up-jamovi",
+    "title": "Subgroups in jamovi",
+    "section": "Set up jamovi",
+    "text": "Set up jamovi\nIf you have not yet set up Jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\n\n\nFor these exercises, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this, a. Click the three dots on the top right of the jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp."
+  },
+  {
+    "objectID": "subgroups.html#data-set",
+    "href": "subgroups.html#data-set",
+    "title": "Subgroups in jamovi",
+    "section": "Data Set",
+    "text": "Data Set\n\nIf you do not have the dataset Climate Change Data.omv, download it from the Open Science Framework.\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the tutorial name.\n\nExample: “Novak Djokovic PSYC 422 Subgroups in Jamovi.omv”"
+  },
+  {
+    "objectID": "subgroups.html#splitting-the-data",
+    "href": "subgroups.html#splitting-the-data",
+    "title": "Subgroups in jamovi",
+    "section": "Splitting the Data",
+    "text": "Splitting the Data\nWe want to know whether belief in climate change is influenced by personal experience. To determine this, we asked all participants to indicate if they believe the world’s climate is changing (with response options yes, no, and don’t know) and to rate how much they agreed with the statement “I have been directly affected by climate change” on a five-point frequency scale (with response options 1 = Never,2 = Rarely, 3 = Sometimes, 4 = Often, and 5 = Almost always). This second question is Item 14 on the Psychological Responses to Climate Change Climate Change (Clayton & Karazsia, 2020).\n\nCalculate sample size (N), mean, median, and mode for the variable PRCC14 (“I have been directly affected by climate change”)\nSplit the file by Doubt1 (“As far as you know, do you personally think that the world’s climate is changing?”) to obtain separate results for the three groups: yes, no, and don’t know.\nAdd histograms so you can better visualize your data.\nUse the results to answer the questions below.\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nIn this dataset,  participants believe the world’s climate is changing.\n\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nWhich group has been most affected by climate change, the people who believe in climate change or the people who don’t know if the world’s climate is changing?\nPeople who believe in climate changePeople who don’t know if the world’s climage is changing"
+  },
+  {
+    "objectID": "subgroups.html#filtering-1",
+    "href": "subgroups.html#filtering-1",
+    "title": "Subgroups in jamovi",
+    "section": "Filtering 1",
+    "text": "Filtering 1\nLike splitting data, filters can be used to get separate results for groups that are labelled by categorical variables, but filters can also be used to explore the effect of continuous variables.\n\nUnder the Data tab, click Filters.\nTo view only participants who responded that they believe the world’s climate is changing, add the filter: Doubt1 == ’Yes’. Note the capital Y on “Yes”.\nJamovi applies this filter to ALL of the results in your output window. To see this, look at your histogram. Now that the filter for Doubt1 is active, answer Question 3 below.\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nHow many groups are now shown on your histogram?\n4213"
+  },
+  {
+    "objectID": "subgroups.html#filtering-2",
+    "href": "subgroups.html#filtering-2",
+    "title": "Subgroups in jamovi",
+    "section": "Filtering 2",
+    "text": "Filtering 2\nMake the filter for Doubt1 inactive. Check your output window to ensure you can now see histograms for all three participant groups (i.e., Yes, No, and Don’t know).\n\nAdd a new filter to show the results only for participants whose age is less than 30: age &lt; 30.\nUse the Descriptives table to answer Question 4 below.\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nAmong people who are less than 30, who has been most affected by climate change (PRCC14) – the people who believe in climate change or the ones who don’t know if the world’s climate is changing (Doubt1)?\nThose who don’t know if the world’s climate is changingThose who believe in climate change"
+  },
+  {
+    "objectID": "subgroups.html#save-your-work",
+    "href": "subgroups.html#save-your-work",
+    "title": "Subgroups in jamovi",
+    "section": "Save your work!",
+    "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to filter data."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021."
   }
 ]

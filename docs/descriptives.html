@@ -98,11 +98,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About this site</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./intro.html"> 
@@ -252,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The mean for how much all participants trust what <em>politicians</em> say about climate change is <input class="webex-solveme nospaces" id="webex-b0b69ad0f272222951c1f805b47f4057" data-tol="0" size="7" data-answer="ORJTGA5YRm0="></p>
+<p>The mean for how much all participants trust what <em>politicians</em> say about climate change is <input class="webex-solveme nospaces" id="webex-8ad1dd7009a0c1cfab38f1332c37c8e8" data-tol="0" size="7" data-answer="Y0NVH1NdFW0="></p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -265,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>The mean for how much all participants trust what <em>scientists</em> say about climate change is <input class="webex-solveme nospaces" id="webex-e08205b977ed8f8dac4457b0a3c8e440" data-tol="0" size="7" data-answer="PhILHAkAQGQ="></p>
+<p>The mean for how much all participants trust what <em>scientists</em> say about climate change is <input class="webex-solveme nospaces" id="webex-17cfe757ca6230581a722400737cc3d6" data-tol="0" size="7" data-answer="ahVQSFwCF2o="></p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -278,7 +274,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>For which variable is there more variability – trust in what politicians say or trust in what scientists say? <select class="webex-select" id="webex-a86e6f19f3fe08e2525240ca14906f24" data-answer="OggaVGs="><option value="blank"></option><option>CCTS_Politicians_Say</option><option>CCTS_Scientists_Say</option></select></p>
+<p>For which variable is there more variability – trust in what politicians say or trust in what scientists say? <select class="webex-select" id="webex-50c9e5e89326e0d976633c24c9a98801" data-answer="bgBPCDg="><option value="blank"></option><option>CCTS_Politicians_Say</option><option>CCTS_Scientists_Say</option></select></p>
 </div>
 </div>
 </section>
@@ -302,7 +298,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>Who trusts politicians the most: people who identify as female, male, or non-binary?</p>
-<p><select class="webex-select" id="webex-9e1274b37d82e2b4719e42c63368cf78" data-answer="YlQdAhsEPw=="><option value="blank"></option><option>Males</option><option>Females</option><option>Non-binary people</option></select></p>
+<p><select class="webex-select" id="webex-641577aca028024ae8b0fad2e5529cf8" data-answer="bQUdBRsHPA=="><option value="blank"></option><option>Males</option><option>Females</option><option>Non-binary people</option></select></p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -316,7 +312,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>Who trusts scientists the most: people who identify as female, male, or non-binary?</p>
-<p><select class="webex-select" id="webex-d83f4f9506285970edaf3927fd73092c" data-answer="PwgfVhhXZA=="><option value="blank"></option><option>Males</option><option>Females</option><option>Non-binary people</option></select></p>
+<p><select class="webex-select" id="webex-f0d85aa5dd9a6de5589e77e3c02dc706" data-answer="PQBICBlQPA=="><option value="blank"></option><option>Males</option><option>Females</option><option>Non-binary people</option></select></p>
 </div>
 </div>
 </section>
@@ -991,7 +987,7 @@ window.onload = function() {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/deborahapthorp\.github\.io\/Jamovi-exercises-for-intro-stats\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

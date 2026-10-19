@@ -98,11 +98,7 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+<span class="menu-text">About this site</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./intro.html" aria-current="page"> 
@@ -280,7 +276,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>What percentage of participants are male (whole number)? <input class="webex-solveme nospaces" id="webex-60b9ee27ffa7ee7cf627d0065308aea5" data-tol="0" size="7" data-answer="bRJXDkc4"></p>
+<p>What percentage of participants are male (whole number)? <input class="webex-solveme nospaces" id="webex-96982de84fd0a7d6af4fec00861810a8" data-tol="0" size="7" data-answer="YhQMDxA5"></p>
 </div>
 </div>
 <ol start="8" type="1">
@@ -302,7 +298,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>What percentage of participants <em>often</em> or <em>almost always</em> wish they behaved more sustainably (whole number)? <input class="webex-solveme nospaces" id="webex-3e18f79f31b34e821f3a6230c9a08888" data-tol="0" size="7" data-answer="aEcCC0Rq"></p>
+<p>What percentage of participants <em>often</em> or <em>almost always</em> wish they behaved more sustainably (whole number)? <input class="webex-solveme nospaces" id="webex-122d222c1e7b2896ae62514f3e77c9bd" data-tol="0" size="7" data-answer="ahABVxBv"></p>
 </div>
 </div>
 </section>
@@ -323,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>What percentage of <em>female</em> participants <em>rarely</em> wish they behaved more sustainably (whole number)? <input class="webex-solveme nospaces" id="webex-4be89f5c2d03c3193c15a165e8e56a8f" data-tol="0" size="7" data-answer="b0BRGmQ="></p>
+<p>What percentage of <em>female</em> participants <em>rarely</em> wish they behaved more sustainably (whole number)? <input class="webex-solveme nospaces" id="webex-5f704a76c425f989131174bcb0df7718" data-tol="0" size="7" data-answer="bkQDEmk="></p>
 </div>
 </div>
 </section>
@@ -344,7 +340,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>What percentage participants who <em>almost always</em> wish they behaved more sustainably are <em>female</em>? (whole number)? <input class="webex-solveme nospaces" id="webex-9ca3c37b773f388ce311e28aa7506e04" data-tol="0" size="7" data-answer="YkFUAUFu"></p>
+<p>What percentage participants who <em>almost always</em> wish they behaved more sustainably are <em>female</em>? (whole number)? <input class="webex-solveme nospaces" id="webex-4e0d6075027c4203bc4aed9c09bdd41b" data-tol="0" size="7" data-answer="b0cFVhRt"></p>
 </div>
 </div>
 </section>
@@ -1034,7 +1030,7 @@ window.onload = function() {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/deborahapthorp\.github\.io\/Jamovi-exercises-for-intro-stats\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
