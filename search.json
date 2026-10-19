@@ -56,88 +56,11 @@
     "text": "Save your work\nDon’t forget to save your work. You can also export your jamovi file as a PDF if you would like to. To do this,\n\nClick the three horizontal bars on the top left of your Jamovi screen.\nClick Export.\nEnter a file name that includes your full name and the exercise name."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Jamovi exercises for Introdutory Statistics - Climate Change Data",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021.\nThis website was programmed in Quarto.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "index.html#about-this-site",
-    "href": "index.html#about-this-site",
-    "title": "Jamovi exercises for Introdutory Statistics - Climate Change Data",
-    "section": "",
-    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021.\nThis website was programmed in Quarto.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "Introduction to jamovi",
-    "section": "",
-    "text": "The purpose of this exercise is to introduce you to jamovi, a powerful, easy-to-use statistics program that is also FREE. You can install jamovi on your Windows, Mac, Linux, or Chromebook. If you do not have access to one of those types of computers, you can use jamovi in a simple online format. In this exercise, you will learn the basics of jamovi and then use it to calculate some probabilities.\nDuring this exercise, you will explore probabilities related to sustainability. If you want to learn more about sustainability and climate change, see What You Can do About Climate Change."
-  },
-  {
-    "objectID": "intro.html#purpose",
-    "href": "intro.html#purpose",
-    "title": "Introduction to jamovi",
-    "section": "",
-    "text": "The purpose of this exercise is to introduce you to jamovi, a powerful, easy-to-use statistics program that is also FREE. You can install jamovi on your Windows, Mac, Linux, or Chromebook. If you do not have access to one of those types of computers, you can use jamovi in a simple online format. In this exercise, you will learn the basics of jamovi and then use it to calculate some probabilities.\nDuring this exercise, you will explore probabilities related to sustainability. If you want to learn more about sustainability and climate change, see What You Can do About Climate Change."
-  },
-  {
-    "objectID": "intro.html#background-videos",
-    "href": "intro.html#background-videos",
-    "title": "Introduction to jamovi",
-    "section": "Background Videos",
-    "text": "Background Videos\nBefore starting this exercise, watch the following videos to learn about jamovi:\n\nInstalling jamovi (33 seconds)\n\n\n\n\n\n\n\n\n\n\n\nNavigating jamovi (5 minutes 20 seconds)\n\n\n\n\n\n\n\n\n\n\n\nSharing Files (1 minute 31 seconds)\n\n\n\n\n\n\n\n\n\n\n\nImporting Data (4 minutes 50 seconds)\n\n\n\n\n\n\n\n\n\n\nIf you prefer written explanations of the steps involved, see Section 3 in Learning Statistics with jamovi."
-  },
-  {
-    "objectID": "intro.html#set-up-jamovi",
-    "href": "intro.html#set-up-jamovi",
-    "title": "Introduction to jamovi",
-    "section": "Set up jamovi",
-    "text": "Set up jamovi\nIf you have not yet set up jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\nIn this set of exercises, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this,\n\nClick the three dots on the top right of the Jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp.\n\n\n\n\n\n\n\nThe three dots for settings\n\n\n\n\n\n\nChange to two decimal places"
-  },
-  {
-    "objectID": "intro.html#data-set",
-    "href": "intro.html#data-set",
-    "title": "Introduction to jamovi",
-    "section": "Data Set",
-    "text": "Data Set\n\nIf you do not have the dataset Climate Change Data.omv download it from the Open Science Framework website\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the exercise name. This will help you find it later when you want to do a similar analysis.\n\nExample: “Taylor Swift PSYC 422 Introduction to jamovi.omv”"
-  },
-  {
-    "objectID": "intro.html#calculate-simple-probabilities",
-    "href": "intro.html#calculate-simple-probabilities",
-    "title": "Introduction to jamovi",
-    "section": "Calculate Simple Probabilities",
-    "text": "Calculate Simple Probabilities\nCalculate the percentage of participants who often wish or almost always wish they behaved more sustainably. To do this:\n\nClick the Frequencies menu.\nIn the Contingency Tables section, click Independent Samples.\nMove the variable PRCC17 (“I wish I behaved more sustainably.”) to Rows. To do this, highlight the variable PRCC17. Then click the arrow that points to the right to move this variable into the box that says Rows.\nMove Gender to Columns.\nLook at the right-hand side of jamovi, where it shows your output. You should see a Contingency Table with four columns and six rows.\n\n\nColumns are vertical. You should have columns for Female, Male, Non-binary, and Total.\nRows are horizontal. You should have rows for Never, Rarely, Sometimes, Often, Almost always, and Total.\nCells are the intersections of rows and columns. There should be 24 cells in your table; each cell should have a number in it.\n\n\nLook at the left-hand side of jamovi, again, where you tell it what analysis you want to do. In the Cells section, check the box to indicate you want the Percentages for Row.\nIn the output table, look at the row that says Total. Read off the percentage of participants who are male.\n\n\nNote that jamovi considers percentages to be 2 decimals. For example, 32% is 2 decimals, whereas 32.78% would be 4 decimals. In this course, we will present results to 2 decimals.\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nWhat percentage of participants are male (whole number)? \n\n\n\nIn jamovi, in the Cells section, indicate you want the Percentages for Column. To make the output easier to read, uncheck the box that shows the Percentages for Row.\nIn the output table, look at the column that says Total.\n\n\n22% of participants said they often wish they behaved more sustainably.\nFind the percentage who said they almost always wish they behaved more sustainably.\nAdd these percentages together.\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nWhat percentage of participants often or almost always wish they behaved more sustainably (whole number)?"
-  },
-  {
-    "objectID": "intro.html#calculate-a-joint-probability",
-    "href": "intro.html#calculate-a-joint-probability",
-    "title": "Introduction to jamovi",
-    "section": "Calculate a Joint Probability",
-    "text": "Calculate a Joint Probability\nA joint probability is the probability of two events occurring simultaneously. Calculate the percentage of participants who are female and who rarely wish they behaved more sustainably. To do this:\n\nIn the Cells section, indicate you want the Percentages for Total. To make your output easier to read, you can uncheck the box for Column.\nOn your output table, look in the cell for female and rarely. Read off the percentage of participants who are female and rarely wish they behaved more sustainably.\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nWhat percentage of female participants rarely wish they behaved more sustainably (whole number)?"
-  },
-  {
-    "objectID": "intro.html#calculate-a-conditional-probability",
-    "href": "intro.html#calculate-a-conditional-probability",
-    "title": "Introduction to jamovi",
-    "section": "Calculate a Conditional Probability",
-    "text": "Calculate a Conditional Probability\n\nA conditional probability is the probability of one event occurring assuming another event has already occurred. For those people who almost always wish they behaved more sustainably, calculate the percentage who are female. To do this:\nIn the Cells section, indicate you want percentages for Row.To make your output easier to read, you can uncheck the box for Total.\nLook at the row of results for almost always. Of participants who almost always wish they behaved more sustainably, read the percentage who are female.\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nWhat percentage participants who almost always wish they behaved more sustainably are female? (whole number)?"
-  },
-  {
-    "objectID": "intro.html#how-to-delete-output",
-    "href": "intro.html#how-to-delete-output",
-    "title": "Introduction to jamovi",
-    "section": "How to Delete Output",
-    "text": "How to Delete Output\nIf you made any mistakes when you were working, you might need to remove a portion of your output. For example, if you did the same analysis twice, you should delete the extra analysis. To delete a portion of your output:\n\nRight click the title for that part of your output.\nFrom the drop-down menu, click Analyses.\nFrom the side-menu, click Remove."
-  },
-  {
-    "objectID": "intro.html#save-and-export",
-    "href": "intro.html#save-and-export",
-    "title": "Introduction to jamovi",
-    "section": "Save and Export",
-    "text": "Save and Export\n\nNow that you have answered all the questions, save them all in a Word file. This way, you’ll have all of your answers.\nSave your jamovi file again, so that you have everything you did. This file will be helpful in the future.\nExport your jamovi output to a pdf file. To do this,\n\n\nClick the three horizontal bars on the top left of your jamovi screen.\nClick Export.\nEnter a file name that includes your full name, the assignment name, and the word Output. Example: “Rick Astley PSY422 Introduction to jamovi Output.pdf”\nSelect Portable Document Format (.pdf).\nClick Export."
+    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021."
   },
   {
     "objectID": "subgroups.html",
@@ -224,10 +147,178 @@
     "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to filter data."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Introduction to jamovi",
     "section": "",
-    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021."
+    "text": "The purpose of this exercise is to introduce you to jamovi, a powerful, easy-to-use statistics program that is also FREE. You can install jamovi on your Windows, Mac, Linux, or Chromebook. If you do not have access to one of those types of computers, you can use jamovi in a simple online format. In this exercise, you will learn the basics of jamovi and then use it to calculate some probabilities.\nDuring this exercise, you will explore probabilities related to sustainability. If you want to learn more about sustainability and climate change, see What You Can do About Climate Change."
+  },
+  {
+    "objectID": "intro.html#purpose",
+    "href": "intro.html#purpose",
+    "title": "Introduction to jamovi",
+    "section": "",
+    "text": "The purpose of this exercise is to introduce you to jamovi, a powerful, easy-to-use statistics program that is also FREE. You can install jamovi on your Windows, Mac, Linux, or Chromebook. If you do not have access to one of those types of computers, you can use jamovi in a simple online format. In this exercise, you will learn the basics of jamovi and then use it to calculate some probabilities.\nDuring this exercise, you will explore probabilities related to sustainability. If you want to learn more about sustainability and climate change, see What You Can do About Climate Change."
+  },
+  {
+    "objectID": "intro.html#background-videos",
+    "href": "intro.html#background-videos",
+    "title": "Introduction to jamovi",
+    "section": "Background Videos",
+    "text": "Background Videos\nBefore starting this exercise, watch the following videos to learn about jamovi:\n\nInstalling jamovi (33 seconds)\n\n\n\n\n\n\n\n\n\n\n\nNavigating jamovi (5 minutes 20 seconds)\n\n\n\n\n\n\n\n\n\n\n\nSharing Files (1 minute 31 seconds)\n\n\n\n\n\n\n\n\n\n\n\nImporting Data (4 minutes 50 seconds)\n\n\n\n\n\n\n\n\n\n\nIf you prefer written explanations of the steps involved, see Section 3 in Learning Statistics with jamovi."
+  },
+  {
+    "objectID": "intro.html#set-up-jamovi",
+    "href": "intro.html#set-up-jamovi",
+    "title": "Introduction to jamovi",
+    "section": "Set up jamovi",
+    "text": "Set up jamovi\nIf you have not yet set up jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\nIn this set of exercises, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this,\n\nClick the three dots on the top right of the Jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp.\n\n\n\n\n\n\n\nThe three dots for settings\n\n\n\n\n\n\nChange to two decimal places"
+  },
+  {
+    "objectID": "intro.html#data-set",
+    "href": "intro.html#data-set",
+    "title": "Introduction to jamovi",
+    "section": "Data Set",
+    "text": "Data Set\n\nIf you do not have the dataset Climate Change Data.omv download it from the Open Science Framework website\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the exercise name. This will help you find it later when you want to do a similar analysis.\n\nExample: “Taylor Swift PSYC 422 Introduction to jamovi.omv”"
+  },
+  {
+    "objectID": "intro.html#calculate-simple-probabilities",
+    "href": "intro.html#calculate-simple-probabilities",
+    "title": "Introduction to jamovi",
+    "section": "Calculate Simple Probabilities",
+    "text": "Calculate Simple Probabilities\nCalculate the percentage of participants who often wish or almost always wish they behaved more sustainably. To do this:\n\nClick the Frequencies menu.\nIn the Contingency Tables section, click Independent Samples.\nMove the variable PRCC17 (“I wish I behaved more sustainably.”) to Rows. To do this, highlight the variable PRCC17. Then click the arrow that points to the right to move this variable into the box that says Rows.\nMove Gender to Columns.\nLook at the right-hand side of jamovi, where it shows your output. You should see a Contingency Table with four columns and six rows.\n\n\nColumns are vertical. You should have columns for Female, Male, Non-binary, and Total.\nRows are horizontal. You should have rows for Never, Rarely, Sometimes, Often, Almost always, and Total.\nCells are the intersections of rows and columns. There should be 24 cells in your table; each cell should have a number in it.\n\n\nLook at the left-hand side of jamovi, again, where you tell it what analysis you want to do. In the Cells section, check the box to indicate you want the Percentages for Row.\nIn the output table, look at the row that says Total. Read off the percentage of participants who are male.\n\n\nNote that jamovi considers percentages to be 2 decimals. For example, 32% is 2 decimals, whereas 32.78% would be 4 decimals. In this course, we will present results to 2 decimals.\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nWhat percentage of participants are male (whole number)? \n\n\n\nIn jamovi, in the Cells section, indicate you want the Percentages for Column. To make the output easier to read, uncheck the box that shows the Percentages for Row.\nIn the output table, look at the column that says Total.\n\n\n22% of participants said they often wish they behaved more sustainably.\nFind the percentage who said they almost always wish they behaved more sustainably.\nAdd these percentages together.\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nWhat percentage of participants often or almost always wish they behaved more sustainably (whole number)?"
+  },
+  {
+    "objectID": "intro.html#calculate-a-joint-probability",
+    "href": "intro.html#calculate-a-joint-probability",
+    "title": "Introduction to jamovi",
+    "section": "Calculate a Joint Probability",
+    "text": "Calculate a Joint Probability\nA joint probability is the probability of two events occurring simultaneously. Calculate the percentage of participants who are female and who rarely wish they behaved more sustainably. To do this:\n\nIn the Cells section, indicate you want the Percentages for Total. To make your output easier to read, you can uncheck the box for Column.\nOn your output table, look in the cell for female and rarely. Read off the percentage of participants who are female and rarely wish they behaved more sustainably.\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nWhat percentage of female participants rarely wish they behaved more sustainably (whole number)?"
+  },
+  {
+    "objectID": "intro.html#calculate-a-conditional-probability",
+    "href": "intro.html#calculate-a-conditional-probability",
+    "title": "Introduction to jamovi",
+    "section": "Calculate a Conditional Probability",
+    "text": "Calculate a Conditional Probability\n\nA conditional probability is the probability of one event occurring assuming another event has already occurred. For those people who almost always wish they behaved more sustainably, calculate the percentage who are female. To do this:\nIn the Cells section, indicate you want percentages for Row.To make your output easier to read, you can uncheck the box for Total.\nLook at the row of results for almost always. Of participants who almost always wish they behaved more sustainably, read the percentage who are female.\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nWhat percentage participants who almost always wish they behaved more sustainably are female? (whole number)?"
+  },
+  {
+    "objectID": "intro.html#how-to-delete-output",
+    "href": "intro.html#how-to-delete-output",
+    "title": "Introduction to jamovi",
+    "section": "How to Delete Output",
+    "text": "How to Delete Output\nIf you made any mistakes when you were working, you might need to remove a portion of your output. For example, if you did the same analysis twice, you should delete the extra analysis. To delete a portion of your output:\n\nRight click the title for that part of your output.\nFrom the drop-down menu, click Analyses.\nFrom the side-menu, click Remove."
+  },
+  {
+    "objectID": "intro.html#save-and-export",
+    "href": "intro.html#save-and-export",
+    "title": "Introduction to jamovi",
+    "section": "Save and Export",
+    "text": "Save and Export\n\nNow that you have answered all the questions, save them all in a Word file. This way, you’ll have all of your answers.\nSave your jamovi file again, so that you have everything you did. This file will be helpful in the future.\nExport your jamovi output to a pdf file. To do this,\n\n\nClick the three horizontal bars on the top left of your jamovi screen.\nClick Export.\nEnter a file name that includes your full name, the assignment name, and the word Output. Example: “Rick Astley PSY422 Introduction to jamovi Output.pdf”\nSelect Portable Document Format (.pdf).\nClick Export."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About this site",
+    "section": "",
+    "text": "These interactive tutorials will guide you through the basics of using jamovi, which is free statistical software. You will download and use real data and check your results as you go (you can retry as many times as you like).\nThe tutorials are based on the free assignment series, “Jamovi for Intro Stats - Climate Change Data”, by Kimberly A. Barchard, Joshua Galloway, Jaidyn Billerbeck and Fred Vincent Margallow, available on the OSF. The data used is real data which was collected by the authors using the online recruitment service Mechanical Turk in 2021.\nThis website was programmed in Quarto.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "transforms.html",
+    "href": "transforms.html",
+    "title": "Transforming data in jamovi",
+    "section": "",
+    "text": "The purpose of this exercise is to learn how recode (transform) data in jamovi. This exercise will explore how food choices can reduce climate change and feeling hopeful about climate change. If you want to learn more about these topics, see the following articles:\nFood and Climate Change\nPlant-based Diet can Fight Climate Change\nHow to Fight Climate Despair"
+  },
+  {
+    "objectID": "transforms.html#purpose",
+    "href": "transforms.html#purpose",
+    "title": "Transforming data in jamovi",
+    "section": "",
+    "text": "The purpose of this exercise is to learn how recode (transform) data in jamovi. This exercise will explore how food choices can reduce climate change and feeling hopeful about climate change. If you want to learn more about these topics, see the following articles:\nFood and Climate Change\nPlant-based Diet can Fight Climate Change\nHow to Fight Climate Despair"
+  },
+  {
+    "objectID": "transforms.html#background-videos",
+    "href": "transforms.html#background-videos",
+    "title": "Transforming data in jamovi",
+    "section": "Background Videos",
+    "text": "Background Videos\nYou may already be familiar with how to split the file to obtain separate results for different groups from other assignments; however, if you need a refresher, you could watch the following video: Descriptive statistics (3 minutes 54 seconds).\nBefore starting this assignment, watch the three short videos below to learn how to recode data. If you prefer written explanations of the steps involved, see Learning Statistics with Jamovi."
+  },
+  {
+    "objectID": "transforms.html#variable-types-and-labels-6-minutes-9-seconds",
+    "href": "transforms.html#variable-types-and-labels-6-minutes-9-seconds",
+    "title": "Transforming data in jamovi",
+    "section": "Variable types and labels (6 minutes 9 seconds)",
+    "text": "Variable types and labels (6 minutes 9 seconds)"
+  },
+  {
+    "objectID": "transforms.html#computing-z-scores-1-minute-56-seconds",
+    "href": "transforms.html#computing-z-scores-1-minute-56-seconds",
+    "title": "Transforming data in jamovi",
+    "section": "Computing z-scores (1 minute 56 seconds)",
+    "text": "Computing z-scores (1 minute 56 seconds)\n\nembed_youtube(\"EBvvkvqm9_o\")"
+  },
+  {
+    "objectID": "transforms.html#transforming-scores-to-categories-3-minute-42-seconds",
+    "href": "transforms.html#transforming-scores-to-categories-3-minute-42-seconds",
+    "title": "Transforming data in jamovi",
+    "section": "Transforming scores to categories (3 minute 42 seconds)",
+    "text": "Transforming scores to categories (3 minute 42 seconds)"
+  },
+  {
+    "objectID": "transforms.html#set-up-jamovi",
+    "href": "transforms.html#set-up-jamovi",
+    "title": "Transforming data in jamovi",
+    "section": "Set Up Jamovi",
+    "text": "Set Up Jamovi\nIf you have not yet set up jamovi for the computer you are now using:\n\nUsing the website jamovi.org, install jamovi onto your computer. Use the “solid” version that is recommended for most users.\nOpen jamovi.\n\n\nIn these exercises, you should report your results to 2 decimal places. Therefore, set the number format so you can see 2 decimal places. To do this:\n\nClick the three dots on the top right of the jamovi screen to change your preferences.\nLook at the section for Results.\nFor Number format, use the drop-down menu to change decimal places to 2 dp."
+  },
+  {
+    "objectID": "transforms.html#data-set",
+    "href": "transforms.html#data-set",
+    "title": "Transforming data in jamovi",
+    "section": "Data Set",
+    "text": "Data Set\n\nIf you do not have the dataset Climate Change Data.omv, download it from the Open Science Framework website.\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the exercise name.\n\nExample: “Mark Twain PSYC 422 Transforming Data in Jamovi.omv”"
+  },
+  {
+    "objectID": "transforms.html#creating-a-grouping-variable",
+    "href": "transforms.html#creating-a-grouping-variable",
+    "title": "Transforming data in jamovi",
+    "section": "Creating a grouping variable",
+    "text": "Creating a grouping variable\nWhen participants completed our study, they told us their age. We used that information to divide participants into two groups: under 30 and over 30. Here, you will learn how that is done. You will create a new transformed variable that assigns participants to two groups based upon their numeric answers for the variable Age. To do this:\n\nInsert a New Transformed Variable next to the current Age variable. To insert the variable, click the Data menu and click on the variable Age. Click Add. In the drop-down menu, using Transformed Variable, click Insert.\nCreate a New Transform named “Grouping by Age”. To create this transform, click “using transform.” Click Create New Transform.\nIn the description, explain what the transform does in more detail: “Recodes age into two categories”\nUnder variable suffix, type “2 Groups”.\nAdd recode conditions:\n\n\nif $source &gt; 29 use “30+”\nelse use “Under 30”\n\n\nUnder Measure type, select Nominal. Then close the New Transform dialogue.\n\n\n\n\nRecode age into two categories using the Transform dialogue"
+  },
+  {
+    "objectID": "transforms.html#create-a-grouping-variable---check",
+    "href": "transforms.html#create-a-grouping-variable---check",
+    "title": "Transforming data in jamovi",
+    "section": "Create a grouping variable - check",
+    "text": "Create a grouping variable - check\n\nCompare the scores for the new variable you just created (Age – 2 Groups) with the scores for the variable that was created previously. The new variable (Age – 2 Groups) should be right next to the previous variable (Age - Categorical). Was each participant put into the same groups using the variables Age – 2 Groups and Age - Categorical?\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nThe groupings for Age - 2 Groups and Age - Categorical are the same.\nTrueFalse"
+  },
+  {
+    "objectID": "transforms.html#reverse-coding-an-item",
+    "href": "transforms.html#reverse-coding-an-item",
+    "title": "Transforming data in jamovi",
+    "section": "Reverse-Coding an Item",
+    "text": "Reverse-Coding an Item\nEleven of the variables in this data set were designed to measure hope about climate change (Li & Monroe, 2017). They are:\n\nI believe people will be able to solve problems caused by climate change. (CCHS1)\nI believe scientists will be able to find ways to solve problems caused by climate change. (CCHS2)\nEven when some people give up, I know there will be others who will continue to try to solve problems caused by climate change. (CCHS3)\nIf everyone works together, we can solve problems caused by climate change. (CCHS4)\nI am willing to take actions to help solve problems caused by climate change. (CCHS5)\nI believe more people are willing to take actions to help solve problems caused by climate change.(CCHS6)\nI know that there are things that I can do to help solve problems caused by climate change. (CCHS7)\nI know what to do to help solve problems caused by climate change. (CCHS8)\nClimate change is beyond my control, so I won’t even bother trying to solve problems caused by climate change. (CCHS9)\nClimate change is so complex we will not be able to solve problems that it causes. (CCHS10)\nThe actions I can take are too small to help solve problems caused by climate change. (CCHS11)\n\nFor most of these items, higher scores indicate more hope. However, for three of the variables, higher scores indicate less hope. These variables are CCHS9 (“Climate change is beyond my control, so I won’t even bother trying to solve problems caused by climate change.”), CCHS10 (“Climate change is so complex we will not be able to solve problems that it causes.”) and CCHS11 (“The actions I can take are too small to help solve problems caused by climate change.”). We need to reverse code those three variables. To do this:\n\nCreate a New Transformed Variable at the end of the data set.\nCreate a New Transform called “Reverse Coding”. Use the suffix “R”. Provide an appropriate description for this transform.\nAdd seven recode conditions:\n\n\nif $source == 1 use 7\nif $source == 2 use 6\nif $source == 3 use 5\nif $source == 4 use 4\nif $source == 5 use 3\nif $source == 6 use 2\nif $source == 7 use 1\n\n\nTo indicate missing responses, use\n\n\nelse use NA\n\n\nUnder Measure type, select Continuous.\nApply the Reverse Coding transform to the variables CCHS9, CCHS10 and CCHS11 to create variables CCHS9 - R, CCHS10 - R, and CCHS11 - R. Provide appropriate descriptions for the three new variables.\n\n\n\n\nCalculate the means for CCHS9, CCHS10, CCHS11, CCHS9 - R, CCHS10 - R, and CCHS11 - R.\nIf you did your reverse coding correctly, your means should match those in the table below.\nIf the mean for CCHS9, CCHS10 or CCHS11 is incorrect, there’s something wrong with your data set. Download the data set from the OSF website again, and then re-do this assignment.\nIf the mean for CCHS9 - R, CCHS10 - R or CCHS11 - R is incorrect, there’s something wrong with your reverse coding. Edit your transformation and fix the error(s).\n\n\nMeans for original and reverse scored items\n\n\nVariable\nMean\n\n\n\n\nCCHS9\n2.96\n\n\nCCHS10\n3.27\n\n\nCCHS11\n3.77\n\n\nCCHS9 - R\n5.04\n\n\nCCHS10 - R\n4.73\n\n\nCCHS11 - R\n4.23"
+  },
+  {
+    "objectID": "transforms.html#compute-a-total-score-for-the-climate-change-hope-scale",
+    "href": "transforms.html#compute-a-total-score-for-the-climate-change-hope-scale",
+    "title": "Transforming data in jamovi",
+    "section": "Compute a Total Score for the Climate Change Hope Scale",
+    "text": "Compute a Total Score for the Climate Change Hope Scale\nCompute total scores for the Climate Change Hope Scale (Li & Monroe, 2017) using the recoded variables you created in the previous section. To do this:\n\nCreate a New Computed Variable named “CCHS”.\nUnder description, type “Total score for Climate Change Hope Scale”.\nIn the functions drop-down menu, double-click the statistical function SUM to add it to your formula.\nDouble-click on the variable CCHS1 to add it to your formula. Then type a comma.\nDouble-click on each of the remaining variables to add them one by one into the function. Separate them with commas. Your final function should read:\n\nSUM (`CCHS1`, `CCHS2`, `CCHS3`, `CCHS4`, `CCHS5`, `CCHS6`, `CCHS7`, `CCHS8`, `CCHS9 - R`, `CCHS10 - R`, `CCHS11 - R`)\n\n\nDouble check that you have a total of 11 variables and that you used the recoded variables CCHS9 - R, CCHS10 - R and CCHS11 - R.\nYou should now have the total scores for your new variable CCHS. Calculate the mean for CCHS.\nUse this mean to answer Question 2.\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nThe mean for the CCHS is  (2dp).\n\n\n\nSplit the results by Age – Categorical.\nUse these results to answer Question 3.\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nWho is more hopeful about climate change, participants who are under 30 or 30+?\n30+Under 30"
+  },
+  {
+    "objectID": "transforms.html#recoding-missing-values",
+    "href": "transforms.html#recoding-missing-values",
+    "title": "Transforming data in jamovi",
+    "section": "Recoding Missing Values",
+    "text": "Recoding Missing Values\nJamovi ignores missing values when running analyses. This can lead to erroneous conclusions. For example, participants were asked how frequently they eat vegetarian/vegan meals. The possible response options were\n1 = Less than once a year\n2 = Once a year\n3 = Several times a year\n4 = Once a month\n5 = A couple times a month\n6 = Once a week\n7 = At least 3 times a week\n8 = At least 7 times a week\n9 = At least 14 times a week\nParticipants who did not answer this question probably eat vegetarian/vegan meals less than once a year. Therefore, we need to recode any missing values for the CCAI_Food3 variable to 1 (less than once a year) in order to get accurate means for this question. To do this:\n\nCreate a new transform. Name it “Missing Values”.\nAdd an accurate description of what the transformation is doing (e.g., “Recodes system missing values to 1”.)\nUse the variable suffix “MissingTo1”.\nAdd a recode condition that says\n\nif $source == NA use 1\n\nTo keep the other values the same, use\n\nelse use $source\n\nUnder Measure type, select Continuous.\nUse this new transform to recode the variable CCAI_Food3.\nAdd an appropriate description for this variable (e.g., “CCAI_Food3 with missing values recoded to 1”).\n\n\n\n\nCalculate total number of responses (N), number of missing values, and mean for the original variable (CCAI_Food3) and for the transformed variable (e.g., CCAI_Food3 – MissingTo1).\nSplit the above results by Age – Categorical to find out how often participants who are under 30 or 30+ eat vegetarian/vegan meals.\nUse these results to answer the questions below. Who eats more vegetarian/vegan meals - under-30s or 30+ folks?\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nOnce you recode missing values to 1, the mean for vegetarian/vegan meals eaten by under-30s is  (2dp).\n\n\n\n\n\n\n\n\nTipQuestion 5\n\n\n\nOnce you recode missing values to 1, the mean for vegetarian/vegan meals eaten by over-30s is  (2dp)."
+  },
+  {
+    "objectID": "transforms.html#check-your-work",
+    "href": "transforms.html#check-your-work",
+    "title": "Transforming data in jamovi",
+    "section": "Check Your Work",
+    "text": "Check Your Work\n\nYour jamovi file should include the data set with the six new variables: Age – 2 Groups, CCHS9 - R, CCHS10 - R, CCHS11 - R, CCHS, and CCAI_Food3 - MissingTo1.\nYour jamovi output should include:\n\n\nmeans for CCHS9, CCHS10, CCHS11, CCHS9 - R, CCHS10 - R, and CCHS11 – R,\nthe mean score on the Climate Change Hope Scale for participants who are under 30 and 30+, and\nthe mean frequency of vegetarian/vegan meals eaten for participants who are under 30 and 30+, both for the original variables and for the transformed variable.\n\n\nSave your data file with an appropriate name so you can find it later."
   }
 ]
