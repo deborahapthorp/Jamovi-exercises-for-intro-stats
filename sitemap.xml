@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://deborahapthorp.github.io/Jamovi-exercises-for-intro-stats/descriptives.html</loc>
-    <lastmod>2026-10-19T03:15:48.918Z</lastmod>
+    <lastmod>2026-10-19T06:09:09.358Z</lastmod>
   </url>
   <url>
     <loc>https://deborahapthorp.github.io/Jamovi-exercises-for-intro-stats/about.html</loc>
@@ -11,6 +11,10 @@
   <url>
     <loc>https://deborahapthorp.github.io/Jamovi-exercises-for-intro-stats/subgroups.html</loc>
     <lastmod>2026-10-19T03:16:41.132Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deborahapthorp.github.io/Jamovi-exercises-for-intro-stats/independent-samples.html</loc>
+    <lastmod>2026-10-19T22:52:28.302Z</lastmod>
   </url>
   <url>
     <loc>https://deborahapthorp.github.io/Jamovi-exercises-for-intro-stats/t-tests.html</loc>
@@ -22,7 +26,7 @@
   </url>
   <url>
     <loc>https://deborahapthorp.github.io/Jamovi-exercises-for-intro-stats/index.html</loc>
-    <lastmod>2026-10-19T03:52:58.967Z</lastmod>
+    <lastmod>2026-10-19T05:57:06.929Z</lastmod>
   </url>
   <url>
     <loc>https://deborahapthorp.github.io/Jamovi-exercises-for-intro-stats/transforms.html</loc>
