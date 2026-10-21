@@ -551,5 +551,75 @@
     "title": "Transforming data in jamovi",
     "section": "Check Your Work",
     "text": "Check Your Work\n\nYour jamovi file should include the data set with the six new variables: Age – 2 Groups, CCHS9 - R, CCHS10 - R, CCHS11 - R, CCHS, and CCAI_Food3 - MissingTo1.\nYour jamovi output should include:\n\n\nmeans for CCHS9, CCHS10, CCHS11, CCHS9 - R, CCHS10 - R, and CCHS11 – R,\nthe mean score on the Climate Change Hope Scale for participants who are under 30 and 30+, and\nthe mean frequency of vegetarian/vegan meals eaten for participants who are under 30 and 30+, both for the original variables and for the transformed variable.\n\n\nSave your data file with an appropriate name so you can find it later."
+  },
+  {
+    "objectID": "paired.html",
+    "href": "paired.html",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "",
+    "text": "In this assignment, you will compare the use of human-powered transport and public transit by calculating a paired samples t-test (sometimes called a dependent samples t-test) and a confidence interval for the difference of the means, and then you will interpret your findings. To learn more about the climate change impacts of transportation choices, see the links below.\nHealth Benefits of Public Transport\nCommunity Benefits of Public Transport"
+  },
+  {
+    "objectID": "paired.html#purpose",
+    "href": "paired.html#purpose",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "",
+    "text": "In this assignment, you will compare the use of human-powered transport and public transit by calculating a paired samples t-test (sometimes called a dependent samples t-test) and a confidence interval for the difference of the means, and then you will interpret your findings. To learn more about the climate change impacts of transportation choices, see the links below.\nHealth Benefits of Public Transport\nCommunity Benefits of Public Transport"
+  },
+  {
+    "objectID": "paired.html#background",
+    "href": "paired.html#background",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "Background",
+    "text": "Background\nYou may already be familiar with how to filter data from other assignments; however, if you need a refresher, you could watch the following video:\nFiltering cases (8 minutes 26 seconds)\nBefore starting this tutorial, watch the video below to learn how to conduct a dependent-samples (paired) t-test."
+  },
+  {
+    "objectID": "paired.html#paired-samples-t-test-video-5-minutes-12-seconds",
+    "href": "paired.html#paired-samples-t-test-video-5-minutes-12-seconds",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "Paired-samples t-test video (5 minutes 12 seconds)",
+    "text": "Paired-samples t-test video (5 minutes 12 seconds)"
+  },
+  {
+    "objectID": "paired.html#set-up-jamovi",
+    "href": "paired.html#set-up-jamovi",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "Set up jamovi",
+    "text": "Set up jamovi\nIf you have not yet done so, download jamovi and set it up to show numbers to 2 decimal places and p-values to 3 decimal places. See previous tutorials if you don’t know how to do this."
+  },
+  {
+    "objectID": "paired.html#data-set",
+    "href": "paired.html#data-set",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "Data Set",
+    "text": "Data Set\n\nNote: If you do not have the dataset Climate Change Data.omv, download it from the Open Science Framework website.\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the assignment name.\n\nExample: “Elle Woods PSYC 422 Dependent Samples in Jamovi.omv”"
+  },
+  {
+    "objectID": "paired.html#comparing-the-use-of-human-powered-transport-and-public-transit",
+    "href": "paired.html#comparing-the-use-of-human-powered-transport-and-public-transit",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "Comparing the Use of Human-Powered Transport and Public Transit",
+    "text": "Comparing the Use of Human-Powered Transport and Public Transit\nWhen they completed the Climate Change Action Inventory (Barchard, Okagawa, Hoffman, & Odents, 2021), participants were asked how frequently they use human-powered transport and how often they used public transit. The possible response options were:\n1 = Less than once a year\n2 = Once a year\n3 = Several times a year\n4 = Once a month\n5 = A couple times a month\n6 = Once a week\n7 = At least 3 times a week\n8 = At least 7 times a week\n9 = At least 14 times a week\nYou will conduct a paired samples t-test to test the null hypothesis that the mean difference in the frequency of human-powered transit and public transit is 0 (\\(𝐻_0: \\mu_𝐷 = 0\\)) vs the alternative that the mean difference is not zero (\\(𝐻_1: \\mu_D \\ne 0\\)).\n\nCalculate a paired samples t-test for human-powered transport (CCAI_Transportation4) and public transit (CCAI_Transportation5). Put the first variable in the left-hand side of the Paired Variables window, and the second in the right.\nRequest the Student’s t test.\nUnder Additional Statistics, ask for Descriptives and the 95% confidence interval for the Mean Difference.\nUse your results to answer the questions below.\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nAcross all participants, the mean frequency of using human-powered transport is  and the median is . This translates to approximately Once a yearOnce a monthOnce a weekSeveral times a week.\n\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nOn average, which do participants use more - human-powered or public transport?\nPublic transportHuman-powered transport\n\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nThe t-value is , with  degrees of freedom.\n\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nThe p-value is , which should cause us to rejectretain the null hypothesis.\n\n\n\n\n\n\n\n\nTipQuestion 5\n\n\n\nThe lower limit of the confidence interval for the difference in the means is , and the upper limit is ."
+  },
+  {
+    "objectID": "paired.html#filter-your-results",
+    "href": "paired.html#filter-your-results",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "Filter Your Results",
+    "text": "Filter Your Results\nNext, to show results for females only, click the Data tab and then the Filters button. using the command Gender == ‘Female’. Note the capital G on the word “Gender” and the capital F on the word “Female”. Report your results in the section below. Use the words from the scale to clarify the means from the results.\n\n\n\n\n\n\nTipQuestion 6\n\n\n\nFill in the missing words and numbers (2dp for numbers, 3dp for p-values, 0 dp for degrees of freedom) - use the words from the scale above for interpretation of the numbers.\nFemale participants’ rating on how much they used human-powered transport on average was , approximately Once a yearOnce a monthOnce a weekSeveral times a year, and their rating on how much they used public transit on average was , approximately Once a yearOnce a monthOnce a weekSeveral times a year, t( = , p ; 95% confidence interval for the mean difference = [, ])."
+  },
+  {
+    "objectID": "paired.html#filter-your-results-a-different-way",
+    "href": "paired.html#filter-your-results-a-different-way",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "Filter Your Results a different way",
+    "text": "Filter Your Results a different way\nNext, to show results for male participants only; click the Data tab and then filter your results using Gender == ‘Male’. Note the capital M on the word “Male” (don’t forget to deactivate the filter for females or you’ll only have the non-binary folks!). Answer the questions below based on your results.\n\n\n\n\n\n\nTipQuestion 7\n\n\n\nAcross male participants, the mean usage of human-powered transport is ( and the median is ( which translates to Once a yearOnce a monthA couple of times a monthSeveral times a year\n\n\n\n\n\n\n\n\nTipQuestion 8\n\n\n\nOn average, which do male participants use more - human-powered or public transport?\nPublic transportHuman-powered transport\n\n\n\n\n\n\n\n\nTipQuestion 9\n\n\n\nThe t-value is , with  degrees of freedom.\n\n\n\n\n\n\n\n\nTipQuestion 10\n\n\n\nThe p-value is , which should cause us to retainreject the null hypothesis.\n\n\n\n\n\n\n\n\nTipQuestion 11\n\n\n\nThe lower limit of the confidence interval for the difference in the means is , and the upper limit is ."
+  },
+  {
+    "objectID": "paired.html#save-your-work",
+    "href": "paired.html#save-your-work",
+    "title": "Dependent-samples (paired) t-tests",
+    "section": "Save your work!",
+    "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to do an independent samples t-test."
   }
 ]
