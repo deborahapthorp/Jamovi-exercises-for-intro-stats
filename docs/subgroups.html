@@ -128,6 +128,14 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./paired.html"> 
 <span class="menu-text">Dependent-samples (paired) t-tests</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./power.html"> 
+<span class="menu-text">Power in jamovi</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./correlations.html"> 
+<span class="menu-text">Correlations in jamovi</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -249,7 +257,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>In this dataset, <input class="webex-solveme nospaces" id="webex-765f720e0ddc013ef4aaad15e859916b" data-tol="0" size="6" data-answer="bBQBUwAQbQ=="> participants believe the world’s climate is changing.</p>
+<p>In this dataset, <input class="webex-solveme nospaces" id="webex-d3d19ec639d884c13828b359dce119c6" data-tol="0" size="6" data-answer="PxFQBA5HPg=="> participants believe the world’s climate is changing.</p>
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -263,7 +271,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>Which group has been most affected by climate change, the people who believe in climate change or the people who don’t know if the world’s climate is changing?</p>
-<p><select class="webex-select" id="webex-15acafe4ca0f18edd334b102d4126396" data-answer="agRNUzw="><option value="blank"></option><option>People who believe in climate change</option><option>People who don’t know if the world’s climage is changing</option></select></p>
+<p><select class="webex-select" id="webex-ae78cd2b4fde2c06e749ce8a5cdc09ef" data-answer="OlQbCD4="><option value="blank"></option><option>People who believe in climate change</option><option>People who don’t know if the world’s climage is changing</option></select></p>
 </div>
 </div>
 </section>
@@ -286,7 +294,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>How many groups are now shown on your histogram?</p>
-<p><select class="webex-select" id="webex-89c650eafb24d07255f0cbe4c95a62be" data-answer="YwlPBhkBSVE7"><option value="blank"></option><option>4</option><option>2</option><option>1</option><option>3</option></select></p>
+<p><select class="webex-select" id="webex-3f6363ddaf851205b849841833582d77" data-answer="aFYaAxoCSFQ8"><option value="blank"></option><option>4</option><option>2</option><option>1</option><option>3</option></select></p>
 </div>
 </div>
 </section>
@@ -308,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container callout-body">
 <p>Among people who are less than 30, who has been most affected by climate change (<strong>PRCC14</strong>) – the people who believe in climate change or the ones who don’t know if the world’s climate is changing (<strong>Doubt1</strong>)?</p>
-<p><select class="webex-select" id="webex-d8e49bcae6deddc8f4155e9edc68a00a" data-answer="PwhJBWQ="><option value="blank"></option><option>Those who don’t know if the world’s climate is changing</option><option>Those who believe in climate change</option></select></p>
+<p><select class="webex-select" id="webex-c0a9a5af3bdbd37495cfb9b52193243c" data-answer="OABNCDw="><option value="blank"></option><option>Those who don’t know if the world’s climate is changing</option><option>Those who believe in climate change</option></select></p>
 </div>
 </div>
 </section>
@@ -978,7 +986,7 @@ window.onload = function() {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/deborahapthorp\.github\.io\/Jamovi-exercises-for-intro-stats\/");
+        var filterRegex = new RegExp('/' + window.location.host + '/');
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
