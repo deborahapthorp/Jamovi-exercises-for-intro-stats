@@ -1,0 +1,10 @@
+---
+title: "Correlations in jamovi"
+editor: source
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(exams2forms)
+library(vembedr)
+```

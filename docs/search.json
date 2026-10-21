@@ -553,73 +553,94 @@
     "text": "Check Your Work\n\nYour jamovi file should include the data set with the six new variables: Age – 2 Groups, CCHS9 - R, CCHS10 - R, CCHS11 - R, CCHS, and CCAI_Food3 - MissingTo1.\nYour jamovi output should include:\n\n\nmeans for CCHS9, CCHS10, CCHS11, CCHS9 - R, CCHS10 - R, and CCHS11 – R,\nthe mean score on the Climate Change Hope Scale for participants who are under 30 and 30+, and\nthe mean frequency of vegetarian/vegan meals eaten for participants who are under 30 and 30+, both for the original variables and for the transformed variable.\n\n\nSave your data file with an appropriate name so you can find it later."
   },
   {
-    "objectID": "paired.html",
-    "href": "paired.html",
-    "title": "Dependent-samples (paired) t-tests",
+    "objectID": "power.html",
+    "href": "power.html",
+    "title": "Power in jamovi",
     "section": "",
-    "text": "In this assignment, you will compare the use of human-powered transport and public transit by calculating a paired samples t-test (sometimes called a dependent samples t-test) and a confidence interval for the difference of the means, and then you will interpret your findings. To learn more about the climate change impacts of transportation choices, see the links below.\nHealth Benefits of Public Transport\nCommunity Benefits of Public Transport"
+    "text": "The purpose of this exercise is to learn how to calculate power for the one-sample t-test. You will use a module in Jamovi to discover how power varies as a function of sample size, effect size, type I error rate, and test direction."
   },
   {
-    "objectID": "paired.html#purpose",
-    "href": "paired.html#purpose",
-    "title": "Dependent-samples (paired) t-tests",
+    "objectID": "power.html#purpose",
+    "href": "power.html#purpose",
+    "title": "Power in jamovi",
     "section": "",
-    "text": "In this assignment, you will compare the use of human-powered transport and public transit by calculating a paired samples t-test (sometimes called a dependent samples t-test) and a confidence interval for the difference of the means, and then you will interpret your findings. To learn more about the climate change impacts of transportation choices, see the links below.\nHealth Benefits of Public Transport\nCommunity Benefits of Public Transport"
+    "text": "The purpose of this exercise is to learn how to calculate power for the one-sample t-test. You will use a module in Jamovi to discover how power varies as a function of sample size, effect size, type I error rate, and test direction."
   },
   {
-    "objectID": "paired.html#background",
-    "href": "paired.html#background",
-    "title": "Dependent-samples (paired) t-tests",
-    "section": "Background",
-    "text": "Background\nYou may already be familiar with how to filter data from other assignments; however, if you need a refresher, you could watch the following video:\nFiltering cases (8 minutes 26 seconds)\nBefore starting this tutorial, watch the video below to learn how to conduct a dependent-samples (paired) t-test."
+    "objectID": "power.html#introductory-video",
+    "href": "power.html#introductory-video",
+    "title": "Power in jamovi",
+    "section": "Introductory Video",
+    "text": "Introductory Video\nBefore starting this tutorial, watch the short video below to learn about how to install extra modules in jamovi (if you haven’t already done this). If you prefer written explanations of the steps involved, see Matt Howard’s useful guide here."
   },
   {
-    "objectID": "paired.html#paired-samples-t-test-video-5-minutes-12-seconds",
-    "href": "paired.html#paired-samples-t-test-video-5-minutes-12-seconds",
-    "title": "Dependent-samples (paired) t-tests",
-    "section": "Paired-samples t-test video (5 minutes 12 seconds)",
-    "text": "Paired-samples t-test video (5 minutes 12 seconds)"
+    "objectID": "power.html#power-in-jamovi-video",
+    "href": "power.html#power-in-jamovi-video",
+    "title": "Power in jamovi",
+    "section": "Power in jamovi video",
+    "text": "Power in jamovi video"
   },
   {
-    "objectID": "paired.html#set-up-jamovi",
-    "href": "paired.html#set-up-jamovi",
-    "title": "Dependent-samples (paired) t-tests",
+    "objectID": "power.html#set-up-jamovi",
+    "href": "power.html#set-up-jamovi",
+    "title": "Power in jamovi",
     "section": "Set up jamovi",
     "text": "Set up jamovi\nIf you have not yet done so, download jamovi and set it up to show numbers to 2 decimal places and p-values to 3 decimal places. See previous tutorials if you don’t know how to do this."
   },
   {
-    "objectID": "paired.html#data-set",
-    "href": "paired.html#data-set",
-    "title": "Dependent-samples (paired) t-tests",
-    "section": "Data Set",
-    "text": "Data Set\n\nNote: If you do not have the dataset Climate Change Data.omv, download it from the Open Science Framework website.\nOpen this dataset in jamovi.\nSave your jamovi file with a file name that includes your full name and the assignment name.\n\nExample: “Elle Woods PSYC 422 Dependent Samples in Jamovi.omv”"
+    "objectID": "power.html#install-the-jpower-module",
+    "href": "power.html#install-the-jpower-module",
+    "title": "Power in jamovi",
+    "section": "Install the jpower Module",
+    "text": "Install the jpower Module\n\nTo install the jpower module,\n\n\nPress the Modules icon at the top right of jamovi.\nSelect jamovi library.\nUnder the Available tab, locate jpower, and click the INSTALL button.\nWhen in module has been installed, close the library by clicking the up arrow in the top right-hand corner."
   },
   {
-    "objectID": "paired.html#comparing-the-use-of-human-powered-transport-and-public-transit",
-    "href": "paired.html#comparing-the-use-of-human-powered-transport-and-public-transit",
-    "title": "Dependent-samples (paired) t-tests",
-    "section": "Comparing the Use of Human-Powered Transport and Public Transit",
-    "text": "Comparing the Use of Human-Powered Transport and Public Transit\nWhen they completed the Climate Change Action Inventory (Barchard, Okagawa, Hoffman, & Odents, 2021), participants were asked how frequently they use human-powered transport and how often they used public transit. The possible response options were:\n1 = Less than once a year\n2 = Once a year\n3 = Several times a year\n4 = Once a month\n5 = A couple times a month\n6 = Once a week\n7 = At least 3 times a week\n8 = At least 7 times a week\n9 = At least 14 times a week\nYou will conduct a paired samples t-test to test the null hypothesis that the mean difference in the frequency of human-powered transit and public transit is 0 (\\(𝐻_0: \\mu_𝐷 = 0\\)) vs the alternative that the mean difference is not zero (\\(𝐻_1: \\mu_D \\ne 0\\)).\n\nCalculate a paired samples t-test for human-powered transport (CCAI_Transportation4) and public transit (CCAI_Transportation5). Put the first variable in the left-hand side of the Paired Variables window, and the second in the right.\nRequest the Student’s t test.\nUnder Additional Statistics, ask for Descriptives and the 95% confidence interval for the Mean Difference.\nUse your results to answer the questions below.\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nAcross all participants, the mean frequency of using human-powered transport is  and the median is . This translates to approximately Once a yearOnce a monthOnce a weekSeveral times a week.\n\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nOn average, which do participants use more - human-powered or public transport?\nPublic transportHuman-powered transport\n\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nThe t-value is , with  degrees of freedom.\n\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nThe p-value is , which should cause us to rejectretain the null hypothesis.\n\n\n\n\n\n\n\n\nTipQuestion 5\n\n\n\nThe lower limit of the confidence interval for the difference in the means is , and the upper limit is ."
+    "objectID": "power.html#calculate-power-with-the-default-settings",
+    "href": "power.html#calculate-power-with-the-default-settings",
+    "title": "Power in jamovi",
+    "section": "Calculate Power with the Default Settings",
+    "text": "Calculate Power with the Default Settings\n\nUnder the jpower menu, select the One Sample T-Test.\nFirst, we’ll calculate power using the jpower module’s default settings.\nUse the drop-down menu at the left to tell it that you want to Calculate Power. Note: Because you are using jpower to calculate power, the Minimum desired power will now be greyed out.\nLeave the Minimally-interesting effect size (\\(\\delta\\)) as 0.5.\nLeave N (the sample size) as 20.\nLeave Tails as two-tailed.\nIn the Plots section, uncheck the boxes for Power contour plot and Power curve by effect size.\nIn the Plots section, check the box for Power demonstration.\nIn the Additional Options section, make sure there is a check mark by Explanatory text.\nIn your output, look at the A Priori Power Analysis table.\nWrite the value for power as your answer to the question on the next slide\nRead the explanatory text in the output. Scroll down to see the Power Demonstration.\n\n\n\n\n\n\n\nTipQuestion 1\n\n\n\nWith the default settings (\\(\\delta\\) = 0.5, sample size 20, \\(\\alpha\\) = .05, test = two-tailed), power is ."
   },
   {
-    "objectID": "paired.html#filter-your-results",
-    "href": "paired.html#filter-your-results",
-    "title": "Dependent-samples (paired) t-tests",
-    "section": "Filter Your Results",
-    "text": "Filter Your Results\nNext, to show results for females only, click the Data tab and then the Filters button. using the command Gender == ‘Female’. Note the capital G on the word “Gender” and the capital F on the word “Female”. Report your results in the section below. Use the words from the scale to clarify the means from the results.\n\n\n\n\n\n\nTipQuestion 6\n\n\n\nFill in the missing words and numbers (2dp for numbers, 3dp for p-values, 0 dp for degrees of freedom) - use the words from the scale above for interpretation of the numbers.\nFemale participants’ rating on how much they used human-powered transport on average was , approximately Once a yearOnce a monthOnce a weekSeveral times a year, and their rating on how much they used public transit on average was , approximately Once a yearOnce a monthOnce a weekSeveral times a year, t( = , p ; 95% confidence interval for the mean difference = [, ])."
+    "objectID": "power.html#explore-the-relationship-of-power-to-effect-size",
+    "href": "power.html#explore-the-relationship-of-power-to-effect-size",
+    "title": "Power in jamovi",
+    "section": "Explore the Relationship of Power to Effect Size",
+    "text": "Explore the Relationship of Power to Effect Size\n\nChange the value of the Minimally-interesting effect size (\\(\\delta\\)) from 0.5 to “1”.\nUse the A Priori Power Analysis table to answer Question 2.\n\n\n\n\n\n\n\nTipQuestion 2\n\n\n\nQ2. When the Minimally-interesting effect size (\\(\\delta\\)) is changed to 1, power is  (2dp).\n\n\n\nChange the value of the Minimally-interesting effect size (\\(\\delta\\)) to a few other numbers. Look at the A Priori Power Analysis table to see what happens to power. Look at the Power Demonstration.\nAnswer Question 3.\n\n\n\n\n\n\n\nTipQuestion 3\n\n\n\nQ3. As minimally-interesting effect size goes up, a priori power goes updown\n\n\n\nReturn the value of the Minimally-interesting effect size (\\(\\delta\\)) to “0.5”."
   },
   {
-    "objectID": "paired.html#filter-your-results-a-different-way",
-    "href": "paired.html#filter-your-results-a-different-way",
-    "title": "Dependent-samples (paired) t-tests",
-    "section": "Filter Your Results a different way",
-    "text": "Filter Your Results a different way\nNext, to show results for male participants only; click the Data tab and then filter your results using Gender == ‘Male’. Note the capital M on the word “Male” (don’t forget to deactivate the filter for females or you’ll only have the non-binary folks!). Answer the questions below based on your results.\n\n\n\n\n\n\nTipQuestion 7\n\n\n\nAcross male participants, the mean usage of human-powered transport is ( and the median is ( which translates to Once a yearOnce a monthA couple of times a monthSeveral times a year\n\n\n\n\n\n\n\n\nTipQuestion 8\n\n\n\nOn average, which do male participants use more - human-powered or public transport?\nPublic transportHuman-powered transport\n\n\n\n\n\n\n\n\nTipQuestion 9\n\n\n\nThe t-value is , with  degrees of freedom.\n\n\n\n\n\n\n\n\nTipQuestion 10\n\n\n\nThe p-value is , which should cause us to retainreject the null hypothesis.\n\n\n\n\n\n\n\n\nTipQuestion 11\n\n\n\nThe lower limit of the confidence interval for the difference in the means is , and the upper limit is ."
+    "objectID": "power.html#explore-the-relationship-of-power-to-sample-size",
+    "href": "power.html#explore-the-relationship-of-power-to-sample-size",
+    "title": "Power in jamovi",
+    "section": "Explore the Relationship of Power to Sample Size",
+    "text": "Explore the Relationship of Power to Sample Size\n\nUnder N, change the sample size to “50”.\nUse the A Priori Power Analysis table to answer Question 4.\n\n\n\n\n\n\n\nTipQuestion 4\n\n\n\nWhen the sample size is increased to 50 (with a minimally interesting effect size of .5), power is  (2dp).\n\n\n\nUnder N, change the sample size to a few other values. Look at the A Priori Power Analysis table to see what happens to power. Look at the Power Demonstration.\nAnswer Question 5.\n\n\n\n\n\n\n\nTipQuestion 5\n\n\n\nAs sample size goes up, power goes updown.\n\n\n\nReturn N to “20”."
   },
   {
-    "objectID": "paired.html#save-your-work",
-    "href": "paired.html#save-your-work",
-    "title": "Dependent-samples (paired) t-tests",
-    "section": "Save your work!",
-    "text": "Save your work!\nDon’t forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to do an independent samples t-test."
+    "objectID": "power.html#explore-the-relationship-of-power-to-alpha-type-i-error-rate",
+    "href": "power.html#explore-the-relationship-of-power-to-alpha-type-i-error-rate",
+    "title": "Power in jamovi",
+    "section": "Explore the Relationship of Power to \\(\\alpha\\) (type I error rate)",
+    "text": "Explore the Relationship of Power to \\(\\alpha\\) (type I error rate)\n\nChange \\(\\alpha\\) (type I error rate) from 0.05 to “0.10”.\nUse the A Priori Power Analysis table to answer Question 6.\n\n\n\n\n\n\n\nTipQuestion 6\n\n\n\nWhen \\(\\alpha\\) (type I error rate) is changed to 0.10 (with N=20), power is  (2dp).\n\n\n\nChange \\(\\alpha\\) (type I error rate) to a few other values. Look at the A Priori Power Analysis table to see what happens to power. Look at the Power Demonstration.\nAnswer Question 7.\n\n\n\n\n\n\n\nTipQuestion 7\n\n\n\nQ7. As \\(\\alpha\\) (type I error rate) goes down, power goes updown.\n\n\n\nReturn the \\(\\alpha\\) (type I error rate) to “0.05”."
+  },
+  {
+    "objectID": "power.html#explore-the-relationship-of-power-to-number-of-tails.",
+    "href": "power.html#explore-the-relationship-of-power-to-number-of-tails.",
+    "title": "Power in jamovi",
+    "section": "Explore the Relationship of Power to Number of Tails.",
+    "text": "Explore the Relationship of Power to Number of Tails.\nDirectional tests are also called one-tailed tests. Non-directional tests are also called two-tailed tests.\n\nUnder Tails, change two-tailed to one-tailed (consistent).\nUse the A Priori Power Analysis table to answer Question 8.\n\n\n\n\n\n\n\nTipQuestion 8\n\n\n\nWhen the test is changed from two-tailed to one-tailed (with N=20 and alpha = .05), power is  (2dp).\n\n\n\nSwitch back and forth between one-tailed and two-tailed tests a few times. As you do, look at the Power Demonstration. Answer Question 9.\n\n\n\n\n\n\n\nTipQuestion 9\n\n\n\nChanging the test from a two-tailed to a one-tailed test increasesdecreases power.\n\n\n\nReturn Tails to two-tailed."
+  },
+  {
+    "objectID": "power.html#finding-the-necessary-sample-size",
+    "href": "power.html#finding-the-necessary-sample-size",
+    "title": "Power in jamovi",
+    "section": "Finding the Necessary Sample Size",
+    "text": "Finding the Necessary Sample Size\nNow we will calculate the necessary sample size to obtain a desired level of power.\n\nUnder the jpower menu, start a new analysis by selecting the One Sample T-Test.\nUse the dropdown menu to tell it you want to Calculate N.\nLeave the Minimally-interesting effect size (\\(\\alpha\\)) as 0.5.\nLeave the Minimum desired power as .90.\nLeave α (type I error rate) as 0.05.\nLeave Tails as two-tailed.\nIn your output, look at the A Priori Power Analysis table. You should see N=44 as the required sample size.\nNow change the Minimum desired power to “.80”. Use this to answer Question 10.\n\n\n\n\n\n\n\nTipQuestion 10\n\n\n\nTo obtain power of .80, if \\(\\delta\\) = 0.5, \\(\\alpha\\) = .05, and test = two-tailed, a sample size of  (whole number) is needed."
+  },
+  {
+    "objectID": "power.html#save-your-work",
+    "href": "power.html#save-your-work",
+    "title": "Power in jamovi",
+    "section": "Save your work",
+    "text": "Save your work\n\nYour jamovi file should include two power analyses for the One Sample T-Test.\nYou should have answered all 10 questions (you can write your answers in the jamovi file too).\nSave your file with a sensible name so you can find it later when you want to calculate power."
   }
 ]

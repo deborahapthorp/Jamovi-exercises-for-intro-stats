@@ -1,0 +1,221 @@
+---
+title: "Power in jamovi"
+editor: source
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(exams2forms)
+library(vembedr)
+```
+
+## Purpose
+
+The purpose of this exercise is to learn how to calculate power for the one-sample t-test. You will use a module in Jamovi to discover how power varies as a function of sample size, effect size, type I error rate, and test direction.
+
+
+## Introductory Video
+
+Before starting this tutorial, watch the short video below to learn about how to install extra modules in jamovi (if you haven't already done this). If you prefer written explanations of the steps involved, see Matt Howard's useful guide [here](https://mattchoward.com/installing-modules-in-jamovi/). 
+
+## Power in jamovi video 
+
+```{r video, echo=FALSE} 
+embed_youtube("Zm1xAy6HkUo")
+
+```
+
+## Set up jamovi
+If you have not yet done so, download jamovi and set it up to show numbers to 2 decimal places and p-values to 3 decimal places. See previous tutorials if you don't know how to do this. 
+
+## Install the jpower Module
+
+1. To install the jpower module,
+
+  a. Press the Modules icon at the top right of jamovi.
+
+  b. Select jamovi library.
+
+  c. Under the Available tab, locate jpower, and click the INSTALL button.
+
+  d. When in module has been installed, close the library by clicking the up arrow in the top right-hand corner.
+
+## Calculate Power with the Default Settings
+
+1. Under the jpower menu, select the One Sample T-Test.
+
+2. First, we’ll calculate power using the jpower module’s default settings.
+
+3. Use the drop-down menu at the left to tell it that you want to Calculate Power. Note: Because you are using jpower to calculate power, the Minimum desired power will now be greyed out.
+
+4. Leave the Minimally-interesting effect size ($\delta$) as 0.5.
+
+5. Leave N (the sample size) as 20.
+
+7. Leave Tails as two-tailed.
+
+8. In the Plots section, uncheck the boxes for Power contour plot and Power curve by effect size.
+
+9. In the Plots section, check the box for Power demonstration.
+
+10. In the Additional Options section, make sure there is a check mark by Explanatory text.
+
+11. In your output, look at the A Priori Power Analysis table.
+
+12. Write the value for power as your answer to the question on the next slide
+
+13. Read the explanatory text in the output. Scroll down to see the Power Demonstration.
+
+::: {.callout-tip}
+
+## Question 1
+
+With the default settings ($\delta$ = 0.5, sample size 20, $\alpha$ = .05, test = two-tailed), power is `r forms_num((0.56), width = 6)`.
+
+:::
+
+
+## Explore the Relationship of Power to Effect Size
+
+1. Change the value of the Minimally-interesting effect size ($\delta$) from 0.5 to “1”.
+
+2. Use the A Priori Power Analysis table to answer Question 2.
+
+::: {.callout-tip}
+
+## Question 2
+
+Q2. When the Minimally-interesting effect size ($\delta$) is changed to 1, power is  `r forms_num((0.99), width = 6)` (2dp). 
+
+:::
+
+3. Change the value of the Minimally-interesting effect size ($\delta$) to a few other numbers. Look at the A Priori Power Analysis table to see what happens to power. Look at the Power Demonstration.
+
+4. Answer Question 3.
+
+::: {.callout-tip}
+
+## Question 3
+
+Q3. As minimally-interesting effect size goes up, a priori power goes `r forms_schoice(c("up", "down"), c(TRUE, FALSE), display = "dropdown")`
+
+:::
+
+5. Return the value of the Minimally-interesting effect size ($\delta$) to “0.5”.
+
+
+## Explore the Relationship of Power to Sample Size
+
+1. Under N, change the sample size to “50”.
+
+2. Use the A Priori Power Analysis table to answer Question 4.
+
+::: {.callout-tip}
+
+## Question 4
+When the sample size is increased to 50 (with a minimally interesting effect size of .5), power is  `r forms_num((0.93), width = 6)` (2dp).
+
+:::
+
+3. Under N, change the sample size to a few other values. Look at the A Priori Power Analysis table to see what happens to power. Look at the Power Demonstration.
+
+4. Answer Question 5.
+
+::: {.callout-tip}
+
+## Question 5
+As sample size goes up, power goes `r forms_schoice(c("up", "down"), c(TRUE, FALSE), display = "dropdown")`. 
+:::
+
+5. Return N to “20”.
+
+
+## Explore the Relationship of Power to $\alpha$ (type I error rate)
+
+1. Change $\alpha$ (type I error rate) from 0.05 to “0.10”.
+
+2. Use the A Priori Power Analysis table to answer Question 6.
+
+::: {.callout-tip}
+
+## Question 6
+When $\alpha$ (type I error rate) is changed to 0.10 (with N=20), power is `r forms_num((0.70), width = 6)` (2dp). 
+
+:::
+
+3. Change $\alpha$ (type I error rate) to a few other values. Look at the A Priori Power Analysis table to see what happens to power. Look at the Power Demonstration.
+
+4. Answer Question 7.
+
+::: {.callout-tip}
+
+## Question 7
+Q7. As $\alpha$ (type I error rate) goes **down**, power goes `r forms_schoice(c("up", "down"), c(FALSE, TRUE), display = "dropdown")`. 
+
+:::
+
+5. Return the $\alpha$ (type I error rate) to “0.05”.
+
+
+## Explore the Relationship of Power to Number of Tails.
+
+Directional tests are also called one-tailed tests. Non-directional tests are also called two-tailed tests.
+
+1. Under Tails, change two-tailed to one-tailed (consistent).
+
+2. Use the A Priori Power Analysis table to answer Question 8.
+
+::: {.callout-tip}
+
+## Question 8
+When the test is changed from two-tailed to one-tailed (with N=20 and alpha = .05), power is   `r forms_num((0.70), width = 6)` (2dp).
+
+:::
+
+3. Switch back and forth between one-tailed and two-tailed tests a few times. As you do, look at the Power Demonstration. Answer Question 9.
+
+::: {.callout-tip}
+
+## Question 9
+Changing the test from a two-tailed to a one-tailed test 
+`r forms_schoice(c("increases", "decreases"), c(TRUE, FALSE), display = "dropdown")` power. 
+
+:::
+
+4. Return Tails to two-tailed.
+
+## Finding the Necessary Sample Size
+
+Now we will calculate the necessary sample size to obtain a desired level of power.
+
+1. Under the jpower menu, start a new analysis by selecting the One Sample T-Test.
+
+2. Use the dropdown menu to tell it you want to Calculate N.
+
+3. Leave the Minimally-interesting effect size ($\alpha$) as 0.5.
+
+4. Leave the Minimum desired power as .90.
+
+5. Leave α (type I error rate) as 0.05.
+
+6. Leave Tails as two-tailed.
+
+7. In your output, look at the A Priori Power Analysis table. You should see N=44 as the required sample size.
+
+8. Now change the Minimum desired power to “.80”. Use this to answer Question 10. 
+
+::: {.callout-tip}
+
+## Question 10
+
+To obtain power of .80, if $\delta$ = 0.5, $\alpha$ = .05, and test = two-tailed, a sample size of `r forms_num((34), width = 6)` (whole number) is needed. 
+
+:::
+
+## Save your work
+
+1. Your jamovi file should include two power analyses for the One Sample T-Test.
+
+2. You should have answered all 10 questions (you can write your answers in the jamovi file too). 
+
+3. Save your file with a sensible name so you can find it later when you want to calculate power. 

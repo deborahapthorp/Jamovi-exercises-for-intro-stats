@@ -15,6 +15,8 @@ website:
       - t-tests.qmd
       - independent-samples.qmd
       - paired.qmd
+      - power.qmd
+      - correlations.qmd
 
 format:
   html:
