@@ -1,0 +1,187 @@
+---
+title: "Dependent-samples (paired) t-tests"
+editor: source
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(exams2forms)
+library(vembedr)
+```
+
+
+## Purpose
+
+In this assignment, you will compare the use of human-powered transport and public transit by calculating a paired samples t-test (sometimes called a dependent samples t-test) and a confidence interval for the difference of the means, and then you will interpret your findings. To learn more about the climate change impacts of transportation choices, see the links below.
+
+[Health Benefits of Public Transport](https://transloc.com/blog/6-health-benefits-of-public-transportation/)
+
+[Community Benefits of Public Transport](https://www.remix.com/blog/8-benefits-of-public-transportation)
+
+## Background
+
+You may already be familiar with how to filter data from other assignments; however, if you need a refresher, you could watch the following video:
+
+[Filtering cases (8 minutes 26 seconds)](https://youtu.be/pij0KlFhITw)
+
+Before starting this tutorial, watch the video below to learn how to conduct a dependent-samples (paired) t-test.
+
+## Paired-samples t-test video (5 minutes 12 seconds)
+
+```{r video 2, echo=FALSE} 
+embed_youtube("lSjfYYiJG6E")
+```
+
+
+## Set up jamovi
+
+If you have not yet done so, download jamovi and set it up to show numbers to 2 decimal places and p-values to 3 decimal places. See previous tutorials if you don't know how to do this. 
+
+## Data Set
+
+1. Note: If you do not have the dataset **Climate Change Data.omv**, download it from the [Open Science Framework website](https://osf.io/jsd6g/).
+
+2. Open this dataset in jamovi.
+
+3. Save your jamovi file with a file name that includes your full name and the assignment name.
+
+Example: “Elle Woods PSYC 422 Dependent Samples in Jamovi.omv”
+
+
+## Comparing the Use of Human-Powered Transport and Public Transit
+
+When they completed the Climate Change Action Inventory (Barchard, Okagawa, Hoffman, & Odents, 2021), participants were asked how frequently they use human-powered transport and how often they used public transit. The possible response options were: 
+
+1 = Less than once a year 
+
+2 = Once a year  
+
+3 = Several times a year 
+
+4 = Once a month  
+
+5 = A couple times a month 
+
+6 = Once a week  
+
+7 = At least 3 times a week 
+
+8 = At least 7 times a week  
+
+9 = At least 14 times a week
+
+You will conduct a paired samples t-test to test the null hypothesis that the mean difference in the frequency of human-powered transit and public transit is 0 ($𝐻_0: \mu_𝐷 = 0$) vs the alternative that the mean difference is not zero ($𝐻_1: \mu_D \ne 0$). 
+
+1. Calculate a paired samples t-test for human-powered transport (**CCAI_Transportation4**) and public transit (**CCAI_Transportation5**). *Put the first variable in the left-hand side of the Paired Variables window, and the second in the right*. 
+
+2. Request the Student’s t test.
+
+3. Under Additional Statistics, ask for Descriptives and the 95% confidence interval for the Mean Difference.
+
+4.  Use your results to answer the questions below.
+
+
+::: {.callout-tip}
+
+## Question 1
+Across all participants, the mean frequency of using human-powered transport is `r forms_num((4.21), width = 6)` and the median is `r forms_num((4.00), width = 6)`. This translates to approximately `r forms_schoice(c("Once a year", "Once a month", "Once a week", "Several times a week"), c(FALSE, TRUE, FALSE, FALSE), display = "dropdown")`. 
+:::
+
+::: {.callout-tip}
+
+## Question 2
+On average, which do participants use more - human-powered or public transport?
+
+`r forms_schoice(c("Public transport", "Human-powered transport"), c(FALSE, TRUE), display = "dropdown")`
+
+:::
+
+::: {.callout-tip}
+
+## Question 3
+The t-value is `r forms_num((13.47), width = 6)`, with `r forms_num((499), width = 6)` degrees of freedom. 
+
+:::
+
+
+::: {.callout-tip}
+
+## Question 4
+The p-value is `r forms_string("<.001")`, which should cause us to `r forms_schoice(c("reject", "retain"), c(TRUE, FALSE), display = "dropdown")` the null hypothesis. 
+
+:::
+
+
+::: {.callout-tip}
+
+## Question 5
+
+The lower limit of the confidence interval for the difference in the means is `r forms_num((1.38), width = 6)`, and the upper limit is `r forms_num((1.85), width = 6)`.
+
+:::
+
+## Filter Your Results
+
+Next, to show results for females only, click the Data tab and then the Filters button. using the command Gender == 'Female'. Note the capital G on the word “Gender” and the capital F on the word “Female”. Report your results in the section below. Use the words from the scale to clarify the means from the results. 
+
+::: {.callout-tip}
+
+## Question 6
+
+Fill in the missing words and numbers (2dp for numbers, 3dp for p-values, 0 dp for degrees of freedom) - use the words from the scale above for interpretation of the numbers. 
+
+Female participants' rating on how much they used human-powered transport on average was `r forms_num((3.75), width = 6)`, approximately `r forms_schoice(c("Once a year", "Once a month", "Once a week", "Several times a year"), c(FALSE, TRUE, FALSE, FALSE), display = "dropdown")`, and their rating on how much they used public transit on average was `r forms_num((3.75), width = 6)`, approximately `r forms_schoice(c("Once a year", "Once a month", "Once a week", "Several times a year"), c(FALSE, FALSE, FALSE, TRUE), display = "dropdown")`, *t*(`r forms_num((211), width = 6)` = `r forms_num((6.85), width = 6)`, *p* `r forms_string("<.001")`; 95% confidence interval for the mean difference = [`r forms_num((0.89), width = 6)`, `r forms_num((1.60), width = 6)`]).
+
+:::
+
+
+## Filter Your Results a different way
+
+Next, to show results for male participants only; click the Data tab and then filter your results using **Gender == 'Male'**. Note the capital M on the word “Male” (don't forget to deactivate the filter for females or you'll only have the non-binary folks!). Answer the questions below based on your results. 
+
+
+::: {.callout-tip}
+
+## Question 7
+
+Across **male** participants, the mean usage of human-powered transport is  (`r forms_num((4.57), width = 6)` and the median is (`r forms_num((5.00), width = 6)`  which translates to `r forms_schoice(c("Once a year", "Once a month", "A couple of times a month", "Several times a year"), c(FALSE, FALSE, TRUE, FALSE), display = "dropdown")`
+
+:::
+
+
+::: {.callout-tip}
+
+## Question 8
+On average, which do **male** participants use more - human-powered or public transport?
+
+`r forms_schoice(c("Public transport", "Human-powered transport"), c(FALSE, TRUE), display = "dropdown")`
+
+:::
+
+
+::: {.callout-tip}
+
+## Question 9
+The t-value is `r forms_num((12.03), width = 6)`, with `r forms_num((284), width = 6)` degrees of freedom. 
+
+:::
+
+
+::: {.callout-tip}
+
+## Question 10
+The p-value is `r forms_string("<.001")`, which should cause us to `r forms_schoice(c("retain", "reject"), c(FALSE, TRUE), display = "dropdown")` the null hypothesis. 
+
+:::
+
+
+::: {.callout-tip}
+## Question 11
+
+The lower limit of the confidence interval for the difference in the means is `r forms_num((1.59), width = 6)`, and the upper limit is `r forms_num((2.21), width = 6)`.
+
+:::
+
+## Save your work! 
+
+Don't forget to save your work in a sensible place on your computer. Save it with your name and the name of the tutorial, so you can find it again when you need to do an independent samples t-test. 
